@@ -1,0 +1,153 @@
+{
+	"cve_id": "CVE-2021-21107",
+	"name": "Google Chrome 和 Google chromium 资源管理错误漏洞",
+	"type": {
+		"cwe_id": "CWE-416",
+		"value": "释放后使用"
+	},
+	"publish_time": "2021-01-09",
+	"category": "操作系统",
+	"avd_severity": "低危",
+	"nvd_link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21107",
+	"exploit_state": "暂无",
+	"patch_state": "官方补丁",
+	"description": "Google Chrome是美国谷歌（Google）公司的一款Web浏览器。\nGoogle Chrome 87.0.4280.141之前版本中的“拖放”存在内存错误引用漏洞。远程攻击者可利用漏洞通过特制的HTML页面执行沙盒转义。",
+	"fix_suggestion": "厂商已发布了漏洞修复程序，请及时关注更新：\nhttps://chromereleases.googleblog.com/2021/01/stable-channel-update-for-desktop.html",
+	"references": [
+		"https://chromereleases.googleblog.com/2021/01/stable-channel-update-for-desktop.html",
+		"https://crbug.com/1153595",
+		"https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VVUWIJKZTZTG6G475OR6PP4WPQBVM6PS/",
+		"https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z6P6AVVFP7B2M4H7TJQBASRZIBLOTUFN/",
+		"https://security.gentoo.org/glsa/202101-05",
+		"https://www.debian.org/security/2021/dsa-4832"
+	],
+	"affect_state": [
+		{
+			"type": "应用",
+			"vendor": "google",
+			"product": "chrome",
+			"version": "*",
+			"scope": "Up to (excluding)\n87.0.4280.141"
+		},
+		{
+			"type": "系统",
+			"vendor": "debian_10",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n87.0.4280.141-0.1~deb10u1"
+		},
+		{
+			"type": "系统",
+			"vendor": "debian_9",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (including)\n73.0.3683.75-1~deb9u1"
+		},
+		{
+			"type": "系统",
+			"vendor": "debian_sid",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (including)\n87.0.4280.88-0.4"
+		},
+		{
+			"type": "系统",
+			"vendor": "fedora_32",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n87.0.4280.141-1.fc32"
+		},
+		{
+			"type": "系统",
+			"vendor": "fedora_33",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n87.0.4280.141-1.fc33"
+		},
+		{
+			"type": "系统",
+			"vendor": "fedora_EPEL_7",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n88.0.4324.150-1.el7"
+		},
+		{
+			"type": "系统",
+			"vendor": "fedora_EPEL_8",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n88.0.4324.150-1.el8"
+		},
+		{
+			"type": "系统",
+			"vendor": "linux",
+			"product": "linux_kernel",
+			"version": "-"
+		},
+		{
+			"type": "系统",
+			"vendor": "opensuse_Leap_15.1",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n73.0.3856.344-lp151.2.42.1"
+		},
+		{
+			"type": "系统",
+			"vendor": "opensuse_Leap_15.2",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n73.0.3856.344-lp152.2.30.1"
+		},
+		{
+			"type": "系统",
+			"vendor": "ubuntu_16.04",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n89.0.4389.82-0ubuntu0.16.04.1"
+		},
+		{
+			"type": "系统",
+			"vendor": "ubuntu_16.04.7_lts",
+			"product": "chromium-browser",
+			"version": "*",
+			"scope": "Up to (excluding)\n89.0.4389.82-0ubuntu0.16.04.1"
+		},
+		{
+			"type": "系统",
+			"vendor": "ubuntu_16.04_lts",
+			"product": "chromium-browser",
+			"version": "*",
+			"scope": "Up to (excluding)\n89.0.4389.82-0ubuntu0.16.04.1"
+		},
+		{
+			"type": "系统",
+			"vendor": "ubuntu_18.04",
+			"product": "opera",
+			"version": "*",
+			"scope": "Up to (excluding)\n89.0.4389.82-0ubuntu0.18.04.1"
+		},
+		{
+			"type": "系统",
+			"vendor": "ubuntu_18.04.5_lts",
+			"product": "chromium-browser",
+			"version": "*",
+			"scope": "Up to (excluding)\n89.0.4389.82-0ubuntu0.18.04.1"
+		},
+		{
+			"type": "系统",
+			"vendor": "ubuntu_18.04_lts",
+			"product": "chromium-browser",
+			"version": "*",
+			"scope": "Up to (excluding)\n89.0.4389.82-0ubuntu0.18.04.1"
+		}
+	],
+	"avd_score": 3.4,
+	"attack_path": "本地",
+	"attack_complex": "困难",
+	"permission_require": "普通权限",
+	"affect_scope": "有限影响",
+	"exp_maturity": "未验证",
+	"data_integrity": "无影响",
+	"data_confidentiality": "数据泄露",
+	"server_hazards": "服务器失陷"
+}

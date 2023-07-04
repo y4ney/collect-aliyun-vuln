@@ -32,3 +32,16 @@ func WriteFile(filepath string, data any) error {
 
 	return nil
 }
+
+func ReadFile(filepath string, data any) error {
+	d, err := os.ReadFile(filepath)
+	if err != nil {
+		return xerrors.Errorf("failed to read %s:%w", filepath, err)
+	}
+
+	if err = json.Unmarshal(d, data); err != nil {
+		return xerrors.Errorf("failed to unmarshal %s:%w", filepath, err)
+	}
+
+	return nil
+}

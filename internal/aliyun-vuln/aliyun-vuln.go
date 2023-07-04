@@ -2,6 +2,7 @@ package aliyun_vuln
 
 import (
 	"github.com/gocolly/colly/v2"
+	"github.com/y4ney/collect-aliyun-vuln/internal/model"
 	"github.com/y4ney/collect-aliyun-vuln/internal/utils"
 	"golang.org/x/xerrors"
 	"net/url"
@@ -13,7 +14,17 @@ const (
 	Scheme          = "https"
 	Domain          = "avd.aliyun.com"
 	CvdVulnListPath = "nvd/list"
+	VulnDetailPath  = "detail"
 )
+
+type AliyunVuln interface {
+	// GetMetaData 获取元数据
+	GetMetaData(category string) (*Page, error)
+	// GetVulnList 获取漏洞列表数据
+	GetVulnList(category string, page int) ([]*model.VulnList, error)
+	// GetVulnDetail 获取漏洞详情数据
+	GetVulnDetail(vulnId string) (*model.VulnDetail, error)
+}
 
 type Page struct {
 	Current int
@@ -72,8 +83,7 @@ func (c *Collector) getPage(selector string) (*Page, error) {
 		return nil, xerrors.New("text is null")
 	}
 
-	// 获取页码
-
+	// 转换为页码
 	page, err := NewPage(text)
 	if err != nil {
 		return nil, xerrors.Errorf("failed to get page:%w", err)
