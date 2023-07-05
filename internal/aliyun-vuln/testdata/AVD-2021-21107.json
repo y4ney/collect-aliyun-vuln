@@ -1,15 +1,13 @@
 {
 	"cve_id": "CVE-2021-21107",
-	"name": "Google Chrome 和 Google chromium 资源管理错误漏洞",
+	"name": "低危",
 	"type": {
 		"cwe_id": "CWE-416",
 		"value": "释放后使用"
 	},
 	"publish_time": "2021-01-09",
 	"category": "操作系统",
-	"avd_severity": "低危",
 	"nvd_link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21107",
-	"exploit_state": "暂无",
 	"patch_state": "官方补丁",
 	"description": "Google Chrome是美国谷歌（Google）公司的一款Web浏览器。\nGoogle Chrome 87.0.4280.141之前版本中的“拖放”存在内存错误引用漏洞。远程攻击者可利用漏洞通过特制的HTML页面执行沙盒转义。",
 	"fix_suggestion": "厂商已发布了漏洞修复程序，请及时关注更新：\nhttps://chromereleases.googleblog.com/2021/01/stable-channel-update-for-desktop.html",

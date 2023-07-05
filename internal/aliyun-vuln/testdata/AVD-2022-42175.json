@@ -1,0 +1,12 @@
+{
+	"cve_id": "CVE-2022-42175",
+	"publish_time": "2023-07-05",
+	"nvd_link": "http://nvd.nist.gov/vuln/detail/CVE-2022-42175",
+	"description": "Insecure Direct Object Reference vulnerability in WHMCS module SolusVM 1 4.1.2 allows an attacker to change the password and hostname of other customer servers without authorization.",
+	"fix_suggestion": "建议您更新当前系统或软件至最新版，完成漏洞的修复。",
+	"references": [
+		"http://soluslabs.com",
+		"http://solusvm.com",
+		"https://gist.github.com/mr404ntf/9c8728ee8f35d9744feec3828df1085d"
+	]
+}
