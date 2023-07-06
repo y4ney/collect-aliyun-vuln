@@ -75,7 +75,7 @@ func (c *CveCollector) GetVulnList(category string, page int) ([]*model.VulnList
 			vuln := model.VulnList{
 				CveId:       cveVuln[0],
 				Name:        utils.TrimNull(cveVuln[1]),
-				PublishTime: cveVuln[3],
+				PublishTime: utils.TrimNull(cveVuln[3]),
 				Category:    category,
 			}
 

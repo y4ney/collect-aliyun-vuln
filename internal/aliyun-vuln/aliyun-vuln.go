@@ -93,7 +93,7 @@ func GetVulnDetail(vulnId string) (*model.VulnDetail, error) {
 		vuln.CveId = utils.TrimNull(belowTitle[0])
 		vuln.ExploitState = utils.TrimNull(belowTitle[1])
 		vuln.PatchState = utils.TrimNull(belowTitle[2])
-		vuln.PublishTime = belowTitle[3]
+		vuln.PublishTime = utils.TrimNull(belowTitle[3])
 
 		// 获取NVD链接和分类
 		vuln.NvdLink = e.ChildAttr("a", "href")
@@ -199,6 +199,7 @@ func GetVulnDetail(vulnId string) (*model.VulnDetail, error) {
 }
 
 // SearchForId 通过cve id或者是avd id查询漏洞详情
+// TODO 写测试文件
 func SearchForId(vulnId string) (*model.VulnDetail, error) {
 	if utils.IsCVECode(vulnId) {
 		vulnId = strings.ReplaceAll(vulnId, "CVE", "AVD")
@@ -246,7 +247,6 @@ func SearchVulnDetailByName(vulnName string) ([]*model.VulnDetail, error) {
 		}
 		vulnsDetail = append(vulnsDetail, vulnDetail)
 	}
-	_ = utils.WriteFile("./testdata/远程命令执行详情.json", vulnsDetail)
 	return vulnsDetail, nil
 }
 
@@ -267,7 +267,11 @@ func getVulnListBySearch(vulnName string, page int) ([]*model.VulnList, error) {
 			if avdVuln == nil {
 				return
 			}
-			vuln := model.VulnList{AvdId: avdVuln[0], Name: utils.TrimNull(avdVuln[1]), PublishTime: avdVuln[3]}
+			vuln := model.VulnList{
+				AvdId:       avdVuln[0],
+				Name:        utils.TrimNull(avdVuln[1]),
+				PublishTime: utils.TrimNull(avdVuln[3]),
+			}
 			vuln.AvdLink, _ = utils.ParseLink(*url, row.ChildAttr("a", "href"))
 			if utils.TrimNull(avdVuln[2]) == "" {
 				vuln.Type = nil
