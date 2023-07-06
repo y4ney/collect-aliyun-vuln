@@ -3,6 +3,7 @@ package utils
 import (
 	"golang.org/x/xerrors"
 	"net/url"
+	"regexp"
 	"strconv"
 	"strings"
 )
@@ -65,4 +66,10 @@ func FormatNum(text string) (int, error) {
 		return 0, xerrors.Errorf("failed to convert %s:%w", text, err)
 	}
 	return n, nil
+}
+
+func IsCVECode(str string) bool {
+	// 使用正则表达式进行匹配
+	match, _ := regexp.MatchString(`^CVE-\d{4}-\d{4,}$`, str)
+	return match
 }

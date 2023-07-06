@@ -3,15 +3,14 @@ package model
 import "time"
 
 type MetaData struct {
-	LastUpdate     time.Time `json:"last_update,omitempty"`       // 上次更新时间
-	LatestCveId    string    `json:"latest_cve_id,omitempty"`     // 最新的 CVE 编号
-	LatestNonCveId string    `json:"latest_non_cve_id,omitempty"` // 最新的非 CVE 编号
+	LastUpdate time.Time `json:"last_update,omitempty"` // 上次更新时间
 
 	CategoryVuln map[string]int `json:"category_vuln"` // 各类漏洞总数
 	CveVuln      int            `json:"cve_vuln"`      // CVE漏洞总数
 	NonCveVuln   int            `json:"non_cve_vuln"`  // 非CVE总数
 	TotalVuln    int            `json:"total_vuln"`    // 漏洞总数
 }
+
 type VulnDetail struct {
 	VulnList
 	AvdSeverity   string                 `json:"avd_severity,omitempty"`   // 阿里云安全等级

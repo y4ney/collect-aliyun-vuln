@@ -6,17 +6,20 @@ import (
 	"github.com/y4ney/collect-aliyun-vuln/internal/model"
 	"github.com/y4ney/collect-aliyun-vuln/internal/utils"
 	"golang.org/x/xerrors"
-	"net/url"
 	"regexp"
 	"strconv"
+	"strings"
 )
 
 const (
 	Scheme = "https"
 	Domain = "avd.aliyun.com"
 
+	QueryKeyword = "q"
+
 	CvdVulnListPath    = "nvd/list"
 	NonCvdVulnListPath = "nonvd/list"
+	SearchPath         = "search"
 
 	VulnDetailPath = "detail"
 )
@@ -75,8 +78,10 @@ func getPage(url string, c *colly.Collector) (*Page, error) {
 	return page, nil
 }
 
-func GetVulnDetail(vulnId string, c colly.Collector, url *url.URL) (*model.VulnDetail, error) {
+func GetVulnDetail(vulnId string) (*model.VulnDetail, error) {
+	// TODO cvssVector
 	var vuln model.VulnDetail
+	c := colly.NewCollector()
 	// 上方
 	c.OnHTML("div.px-lg-5.px-3.py-lg-3.pt-4.bg-white", func(e *colly.HTMLElement) {
 		// 获取漏洞名称
@@ -185,9 +190,113 @@ func GetVulnDetail(vulnId string, c colly.Collector, url *url.URL) (*model.VulnD
 		}
 	})
 
-	if err := c.Visit(utils.AddQuery(url, map[string]string{QueryId: vulnId}).String()); err != nil {
+	err := c.Visit(utils.AddQuery(utils.URL(Scheme, Domain, VulnDetailPath), map[string]string{QueryId: vulnId}).String())
+	if err != nil {
 		return nil, err
 	}
 
 	return &vuln, nil
+}
+
+// SearchForId 通过cve id或者是avd id查询漏洞详情
+func SearchForId(vulnId string) (*model.VulnDetail, error) {
+	if utils.IsCVECode(vulnId) {
+		vulnId = strings.ReplaceAll(vulnId, "CVE", "AVD")
+	}
+	vuln, err := GetVulnDetail(vulnId)
+	if err != nil {
+		return nil, xerrors.Errorf("failed to get detail for %s:%w", vulnId, err)
+	}
+	return vuln, nil
+}
+
+// SearchVulnListByName 通过 name 模糊查询漏洞列表
+func SearchVulnListByName(vulnName string) ([]*model.VulnList, error) {
+	url := utils.AddQuery(utils.URL(Scheme, Domain, SearchPath), map[string]string{QueryKeyword: vulnName})
+	// 获取分页信息
+	page, err := getPage(url.String(), colly.NewCollector())
+	if err != nil {
+		return nil, xerrors.Errorf("failed to get page of %s:%w", url.String(), err)
+	}
+
+	var vulns []*model.VulnList
+	for i := page.Current; i <= page.Total; i++ {
+		subVulns, err := getVulnListBySearch(vulnName, i)
+		if err != nil {
+			return nil, xerrors.Errorf("failed to get vuln list by search %s:%w", vulnName, err)
+		}
+		vulns = append(vulns, subVulns...)
+	}
+
+	return vulns, nil
+}
+
+// SearchVulnDetailByName 通过 name 模糊查询漏洞详情
+func SearchVulnDetailByName(vulnName string) ([]*model.VulnDetail, error) {
+	vulns, err := SearchVulnListByName(vulnName)
+	if err != nil {
+		return nil, xerrors.Errorf("failed to get vuln list by %s", vulnName, err)
+	}
+
+	var vulnsDetail []*model.VulnDetail
+	for _, vuln := range vulns {
+		vulnDetail, err := GetVulnDetail(vuln.AvdId)
+		if err != nil {
+			return nil, xerrors.Errorf("failed to get vuln detail for %s", vuln.AvdId, err)
+		}
+		vulnsDetail = append(vulnsDetail, vulnDetail)
+	}
+	_ = utils.WriteFile("./testdata/远程命令执行详情.json", vulnsDetail)
+	return vulnsDetail, nil
+}
+
+func getVulnListBySearch(vulnName string, page int) ([]*model.VulnList, error) {
+	c := colly.NewCollector()
+	url := utils.URL(Scheme, Domain, SearchPath)
+	query := map[string]string{QueryPage: strconv.Itoa(page)}
+	if vulnName == "" {
+		url.Path = NonCvdVulnListPath
+	} else {
+		query[QueryKeyword] = vulnName
+	}
+	url = utils.AddQuery(url, query)
+	var vulns []*model.VulnList
+	c.OnHTML("table.table", func(e *colly.HTMLElement) {
+		e.ForEach("tr", func(index int, row *colly.HTMLElement) {
+			avdVuln := row.ChildTexts("td")
+			if avdVuln == nil {
+				return
+			}
+			vuln := model.VulnList{AvdId: avdVuln[0], Name: utils.TrimNull(avdVuln[1]), PublishTime: avdVuln[3]}
+			vuln.AvdLink, _ = utils.ParseLink(*url, row.ChildAttr("a", "href"))
+			if utils.TrimNull(avdVuln[2]) == "" {
+				vuln.Type = nil
+			} else {
+				vuln.Type = &model.VulnType{
+					CweId: avdVuln[2],
+					Value: row.ChildAttr("button.btn.btn-outline-secondary.btn-sm", "title"),
+				}
+			}
+
+			for _, s := range statusSelector {
+				status := row.ChildAttr(s, "title")
+				if status != "" {
+					if utils.IsCVECode(status) {
+						vuln.CveId = status
+					} else {
+						vuln.Status = status
+					}
+				}
+			}
+
+			vulns = append(vulns, &vuln)
+		})
+	})
+
+	err := c.Visit(url.String())
+	if err != nil {
+		return nil, xerrors.Errorf("failed to request %s:%w", url.String(), err)
+	}
+
+	return vulns, nil
 }

@@ -6,13 +6,13 @@ import (
 	"github.com/y4ney/collect-aliyun-vuln/internal/utils"
 	"golang.org/x/xerrors"
 	"net/url"
-	"strconv"
 )
 
 var statusSelector = []string{
 	"button.btn.btn-outline-warning.btn-sm",
 	"button.btn.btn-outline-primary.btn-sm",
 	"button.btn.btn-outline-danger.btn-sm",
+	"button.btn.btn-outline-info.btn-sm",
 }
 
 type NonCveCollector struct {
@@ -45,46 +45,9 @@ func (c *NonCveCollector) GetMetadata() (*model.MetaData, error) {
 }
 
 func (c *NonCveCollector) GetVulnList(_ string, page int) ([]*model.VulnList, error) {
-	var vulns []*model.VulnList
-	c.c.OnHTML("table.table", func(e *colly.HTMLElement) {
-		e.ForEach("tr", func(index int, row *colly.HTMLElement) {
-			avdVuln := row.ChildTexts("td")
-			if avdVuln == nil {
-				return
-			}
-			vuln := model.VulnList{
-				AvdId:       avdVuln[0],
-				Name:        utils.TrimNull(avdVuln[1]),
-				PublishTime: avdVuln[3],
-			}
-
-			vuln.AvdLink, _ = utils.ParseLink(*c.url, row.ChildAttr("a", "href"))
-
-			if utils.TrimNull(avdVuln[2]) == "" {
-				vuln.Type = nil
-			} else {
-				vuln.Type = &model.VulnType{
-					CweId: avdVuln[2],
-					Value: row.ChildAttr("button.btn.btn-outline-secondary.btn-sm", "title"),
-				}
-			}
-
-			for _, s := range statusSelector {
-				status := row.ChildAttr(s, "title")
-				if status != "" {
-					vuln.Status = status
-					break
-				}
-			}
-
-			vulns = append(vulns, &vuln)
-		})
-	})
-
-	c.url = utils.AddQuery(c.url, map[string]string{QueryPage: strconv.Itoa(page)})
-	err := c.c.Visit(c.url.String())
+	vulns, err := getVulnListBySearch("", page)
 	if err != nil {
-		return nil, xerrors.Errorf("failed to request %s:%w", c.url.String(), err)
+		return nil, err
 	}
 
 	return vulns, nil

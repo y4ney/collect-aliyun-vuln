@@ -53,6 +53,11 @@ func init() {
 	rootCmd.AddCommand(versionCmd)
 	rootCmd.AddCommand(schemaCmd)
 
+	// TODO fetch 爬虫 cmd
+	// TODO Subscribe 订阅 cmd
+	// TODO search 搜索cmd
+	// TODO 数字大屏
+
 	rootCmd.PersistentFlags().BoolVarP(&verbose, "verbose", "v", false, "enable verbose logging (DEBUG and below)")
 
 	rootCmd.SilenceErrors = true
@@ -65,6 +70,7 @@ func setup(cmd *cobra.Command, _ []string) {
 	initConfig()
 	utils.BindFlags(cmd)
 }
+
 func initConfig() {
 	home, err := os.UserHomeDir()
 	cobra.CheckErr(err)
@@ -103,6 +109,7 @@ func initLogger() {
 
 	log.Logger = defaultLogger.With().Timestamp().Stack().Logger()
 }
+
 func isTerminal() bool {
 	return term.IsTerminal(int(os.Stdout.Fd()))
 }

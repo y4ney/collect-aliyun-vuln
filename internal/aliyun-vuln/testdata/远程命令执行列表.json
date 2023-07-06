@@ -1,0 +1,5324 @@
+[
+	{
+		"cve_id": "CVE-2023-36475",
+		"avd_id": "AVD-2023-36475",
+		"name": "Parse Server MongoDB BSON 远程命令执行漏洞（CVE-2023-36475）",
+		"type": {
+			"cwe_id": "CWE-1321",
+			"value": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+		},
+		"publish_time": "2023-06-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2023-36475"
+	},
+	{
+		"avd_id": "AVD-2023-1672641",
+		"name": "nginxWebUI runCmd 远程命令执行漏洞",
+		"publish_time": "2023-05-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2023-1672641",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2023-20126",
+		"avd_id": "AVD-2023-20126",
+		"name": "Cisco SPA112 2端口电话适配器远程命令执行漏洞(CVE-2023-20126)",
+		"type": {
+			"cwe_id": "CWE-306",
+			"value": "关键功能的认证机制缺失"
+		},
+		"publish_time": "2023-05-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2023-20126"
+	},
+	{
+		"cve_id": "CVE-2023-1671",
+		"avd_id": "AVD-2023-1671",
+		"name": "Sophos Web Appliance 远程命令执行漏洞（CVE-2023-1671）",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2023-04-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2023-1671",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2023-28935",
+		"avd_id": "AVD-2023-28935",
+		"name": "Apache UIMA DUCC 存在远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2023-03-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2023-28935"
+	},
+	{
+		"cve_id": "CVE-2022-2024",
+		"avd_id": "AVD-2022-2024",
+		"name": "Gogs 远程命令执行漏洞(CVE-2022-2024)",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2023-02-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-2024"
+	},
+	{
+		"cve_id": "CVE-2023-24576",
+		"avd_id": "AVD-2023-24576",
+		"name": "Dell EMC NetWorker 远程命令执行漏洞(CVE-2023-24576)",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2023-02-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2023-24576"
+	},
+	{
+		"cve_id": "CVE-2022-44877",
+		"avd_id": "AVD-2022-44877",
+		"name": "Control Web Panel login 远程命令执行漏洞（CVE-2022-44877）",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2023-01-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-44877",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2022-46169",
+		"avd_id": "AVD-2022-46169",
+		"name": "Cacti remote_agent.php 远程命令执行漏洞（CVE-2022-46169）",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2022-12-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-46169"
+	},
+	{
+		"cve_id": "CVE-2022-4223",
+		"avd_id": "AVD-2022-4223",
+		"name": "pgadmin validate_binary_path 远程命令执行漏洞（CVE-2022-4223）",
+		"type": {
+			"cwe_id": "CWE-40",
+			"value": "路径遍历：'\\UNC\\share\\name\\'(WindowsUNC共享)"
+		},
+		"publish_time": "2022-12-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-4223",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2022-43781",
+		"avd_id": "AVD-2022-43781",
+		"name": "Bitbucket Server and Data Center 远程命令执行漏洞（CVE-2022-43781）",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2022-11-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-43781"
+	},
+	{
+		"avd_id": "AVD-2022-1535216",
+		"name": "Yapi api接口 MongoDB注入致远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-89",
+			"value": "SQL命令中使用的特殊元素转义处理不恰当（SQL注入）"
+		},
+		"publish_time": "2022-11-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-1535216"
+	},
+	{
+		"cve_id": "CVE-2022-36804",
+		"avd_id": "AVD-2022-36804",
+		"name": "Bitbucket Server and Data Center 远程命令执行漏洞（CVE-2022-36804）",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2022-08-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-36804",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2023-1657434",
+		"name": "UniSSO commondRetSt 远程命令执行漏洞",
+		"publish_time": "2022-07-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2023-1657434",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2022-1371104",
+		"name": "zimbra 前台远程命令执行漏洞",
+		"publish_time": "2022-07-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-1371104"
+	},
+	{
+		"cve_id": "CVE-2022-31137",
+		"avd_id": "AVD-2022-31137",
+		"name": "Roxy-WI 远程命令执行漏洞（CVE-2022-31137）",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2022-07-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-31137",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2022-1703",
+		"avd_id": "AVD-2022-1703",
+		"name": "SonicWall SSL-VPN SMA100远程命令执行漏洞（CVE-2022-1703）",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2022-06-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-1703"
+	},
+	{
+		"avd_id": "AVD-2022-1534886",
+		"name": "IMO 云办公室 get_file.php 远程命令执行漏洞",
+		"publish_time": "2022-05-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-1534886",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2022-30525",
+		"avd_id": "AVD-2022-30525",
+		"name": "Zyxel firewalls ztp 远程命令执行漏洞（CVE-2022-30525）",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2022-05-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-30525",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2022-1418797",
+		"name": "TRS MAS testCommandExecutor.jsp 远程命令执行漏洞",
+		"publish_time": "2022-04-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-1418797",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2022-29303",
+		"avd_id": "AVD-2022-29303",
+		"name": "SolarView Compact conf_mail 远程命令执行漏洞（CVE-2022-29303）",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2022-04-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-29303",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2021-46704",
+		"avd_id": "AVD-2021-46704",
+		"name": "GenieACS api ping 远程命令执行漏洞（CVE-2021-46704）",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2022-03-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-46704",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2022-1037286",
+		"name": "向日葵远程控制软件远程命令执行漏洞（CNVD-2022-10270）",
+		"type": {
+			"cwe_id": "CWE-287",
+			"value": "认证机制不恰当"
+		},
+		"publish_time": "2022-02-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2022-1037286",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-936921",
+		"name": "GhostScript远程命令执行漏洞（CNVD-2021-101551）",
+		"publish_time": "2021-12-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-936921"
+	},
+	{
+		"cve_id": "CVE-2021-44094",
+		"avd_id": "AVD-2021-44094",
+		"name": "ZrLog远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-434",
+			"value": "危险类型文件的不加限制上传"
+		},
+		"publish_time": "2021-11-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-44094"
+	},
+	{
+		"cve_id": "CVE-2021-44093",
+		"avd_id": "AVD-2021-44093",
+		"name": "ZrLog远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-434",
+			"value": "危险类型文件的不加限制上传"
+		},
+		"publish_time": "2021-11-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-44093"
+	},
+	{
+		"cve_id": "CVE-2021-22205",
+		"avd_id": "AVD-2021-22205",
+		"name": "Gitlab exiftool 远程命令执行漏洞在野利用（CVE-2021-22205）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2021-10-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-22205",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2021-20837",
+		"avd_id": "AVD-2021-20837",
+		"name": "MovableType xmlrpc 远程命令执行漏洞（CVE-2021-20837）",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2021-10-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-20837",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2021-32589",
+		"avd_id": "AVD-2021-32589",
+		"name": "FortiManager与FortiAnalyzer UAF远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-416",
+			"value": "释放后使用"
+		},
+		"publish_time": "2021-07-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-32589"
+	},
+	{
+		"cve_id": "CVE-2021-20385",
+		"avd_id": "AVD-2021-20385",
+		"name": "IBM Security Guardium远程命令执行漏洞",
+		"publish_time": "2021-05-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-20385"
+	},
+	{
+		"cve_id": "CVE-2021-32305",
+		"avd_id": "AVD-2021-32305",
+		"name": "WebSVN search.php 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2021-05-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-32305",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-176478",
+		"name": "浪潮ClusterEngineV4.0 sysShell 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2021-04-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-176478",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-896443",
+		"name": "奇安信天擎终端安全管理系统控制台存在远程命令执行漏洞（CNVD-2021-27267）",
+		"publish_time": "2021-04-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-896443"
+	},
+	{
+		"avd_id": "AVD-2021-176477",
+		"name": "奇安信 网康下一代防火墙远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2021-04-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-176477",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-176476",
+		"name": "浪潮ClusterEngineV4.0 任意用户登录和远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-290",
+			"value": "使用欺骗进行的认证绕过"
+		},
+		"publish_time": "2021-04-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-176476",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-176352",
+		"name": "亿邮电子邮件系统远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2021-04-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-176352",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-896504",
+		"name": "亿邮电子邮件系统远程命令执行漏洞（CNVD-2021-26422）",
+		"publish_time": "2021-04-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-896504"
+	},
+	{
+		"cve_id": "CVE-2021-22990",
+		"avd_id": "AVD-2021-22990",
+		"name": "F5 BIGIP AWAF/ASM未授权用户TMUI远程命令执行漏洞",
+		"publish_time": "2021-04-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-22990"
+	},
+	{
+		"cve_id": "CVE-2021-22989",
+		"avd_id": "AVD-2021-22989",
+		"name": "F5 BIGIP Appliance模式下AWAF/ASM TMUI远程命令执行漏洞",
+		"publish_time": "2021-04-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-22989"
+	},
+	{
+		"cve_id": "CVE-2021-22987",
+		"avd_id": "AVD-2021-22987",
+		"name": "F5 BIGIP Appliance模式下TMUI远程命令执行漏洞",
+		"publish_time": "2021-04-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-22987"
+	},
+	{
+		"cve_id": "CVE-2021-22988",
+		"avd_id": "AVD-2021-22988",
+		"name": "F5 BIGIP TMUI远程命令执行漏洞",
+		"publish_time": "2021-04-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-22988"
+	},
+	{
+		"cve_id": "CVE-2020-24391",
+		"avd_id": "AVD-2020-24391",
+		"name": "mongo-express远程命令执行漏洞（CVE-2020-24391）",
+		"publish_time": "2021-03-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-24391",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2020-21224",
+		"avd_id": "AVD-2020-21224",
+		"name": "Inspur Clusterengine v4 login 远程命令执行漏洞（CVE-2020-21224）",
+		"type": {
+			"cwe_id": "CWE-88",
+			"value": "参数注入或修改"
+		},
+		"publish_time": "2021-02-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-21224",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-00773",
+		"name": "SonicWall SSL-VPN \u003c 8.0.0.4 jarrewrite.ash 远程命令执行漏洞",
+		"publish_time": "2021-01-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-00773"
+	},
+	{
+		"avd_id": "AVD-02021-0509",
+		"name": "Webmin \u003c=1.920 password_change.cgi 远程命令执行漏洞",
+		"publish_time": "2021-01-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0509"
+	},
+	{
+		"avd_id": "AVD-02021-0631",
+		"name": "Cacti v1.2.8 graph_realtime.php 远程命令执行漏洞",
+		"publish_time": "2021-01-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0631"
+	},
+	{
+		"cve_id": "CVE-2020-4983",
+		"avd_id": "AVD-2020-4983",
+		"name": "IBM Spectrum LSF远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-287",
+			"value": "认证机制不恰当"
+		},
+		"publish_time": "2021-01-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-4983"
+	},
+	{
+		"cve_id": "CVE-2020-4688",
+		"avd_id": "AVD-2020-4688",
+		"name": "IBM Security Guardium远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2021-01-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-4688"
+	},
+	{
+		"avd_id": "AVD-02021-0288",
+		"name": "PHP-FPM FastCGI 远程命令执行漏洞",
+		"publish_time": "2021-01-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0288"
+	},
+	{
+		"avd_id": "AVD-02021-0735",
+		"name": "Nostromo webserver \u003c= 1.9.6 远程命令执行漏洞",
+		"publish_time": "2021-01-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0735"
+	},
+	{
+		"avd_id": "AVD-02021-0116",
+		"name": "Exim 远程命令执行漏洞",
+		"publish_time": "2021-01-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0116"
+	},
+	{
+		"avd_id": "AVD-02021-0156",
+		"name": "Gitea \u003c 1.8-RC3 repo_mirror 远程命令执行漏洞",
+		"publish_time": "2021-01-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0156"
+	},
+	{
+		"avd_id": "AVD-02021-0748",
+		"name": "QNAP QTS cloudPersonalSmtp 远程命令执行漏洞",
+		"publish_time": "2021-01-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0748"
+	},
+	{
+		"avd_id": "AVD-02021-0747",
+		"name": "QNAP QTS authLogin.cgi 远程命令执行漏洞",
+		"publish_time": "2021-01-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0747"
+	},
+	{
+		"avd_id": "AVD-02021-0738",
+		"name": "ZyXEL NAS 远程命令执行漏洞",
+		"publish_time": "2021-01-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0738"
+	},
+	{
+		"avd_id": "AVD-02021-0734",
+		"name": "Zeroshell \u003c= 3.9.0 x509view 远程命令执行漏洞",
+		"publish_time": "2021-01-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0734"
+	},
+	{
+		"avd_id": "AVD-02021-0057",
+		"name": "CouchDB Query Server 远程命令执行漏洞",
+		"publish_time": "2021-01-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0057"
+	},
+	{
+		"avd_id": "AVD-02021-0266",
+		"name": "Nexus Repository Manager 3 coreui_Component 远程命令执行漏洞",
+		"publish_time": "2020-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0266"
+	},
+	{
+		"avd_id": "AVD-02021-0234",
+		"name": "Memcached UPDATE 远程命令执行漏洞",
+		"publish_time": "2020-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0234"
+	},
+	{
+		"avd_id": "AVD-02021-0233",
+		"name": "Memcached APPEND/PREPEND 远程命令执行漏洞",
+		"publish_time": "2020-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0233"
+	},
+	{
+		"avd_id": "AVD-02021-0026",
+		"name": "F5 BIG-IP TMUI 远程命令执行漏洞",
+		"publish_time": "2020-12-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0026"
+	},
+	{
+		"avd_id": "AVD-02021-0253",
+		"name": "mongo-express \u003c \u003c 0.54.0 远程命令执行漏洞",
+		"publish_time": "2020-12-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0253"
+	},
+	{
+		"avd_id": "AVD-02021-0444",
+		"name": "Supervisord 远程命令执行漏洞",
+		"publish_time": "2020-12-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0444"
+	},
+	{
+		"avd_id": "AVD-02021-0551",
+		"name": "奇治堡垒机 ha_request.php 远程命令执行漏洞",
+		"publish_time": "2020-12-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0551"
+	},
+	{
+		"avd_id": "AVD-02021-0289",
+		"name": "PHP-FPM Nginx环境下远程命令执行漏洞",
+		"publish_time": "2020-12-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0289"
+	},
+	{
+		"avd_id": "AVD-02021-0283",
+		"name": "OpenTSDB 远程命令执行漏洞",
+		"publish_time": "2020-12-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0283"
+	},
+	{
+		"avd_id": "AVD-02021-0267",
+		"name": "Nexus Repository Manager 3 coreui_User 远程命令执行漏洞",
+		"publish_time": "2020-12-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0267"
+	},
+	{
+		"avd_id": "AVD-02021-0257",
+		"name": "MyLittleAdmin 前台远程命令执行漏洞",
+		"publish_time": "2020-12-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0257"
+	},
+	{
+		"avd_id": "AVD-02021-0140",
+		"name": "GoAhead 远程命令执行漏洞",
+		"publish_time": "2020-12-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0140"
+	},
+	{
+		"avd_id": "AVD-02021-0136",
+		"name": "Gitlab SSH 仓库导入远程命令执行漏洞",
+		"publish_time": "2020-12-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0136",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-02021-0650",
+		"name": "Kubelet API未授权致远程命令执行漏洞",
+		"publish_time": "2020-12-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-02021-0650"
+	},
+	{
+		"cve_id": "CVE-2020-8283",
+		"avd_id": "AVD-2020-8283",
+		"name": "Citrix Virtual Apps and Desktops远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-269",
+			"value": "特权管理不恰当"
+		},
+		"publish_time": "2020-12-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-8283"
+	},
+	{
+		"avd_id": "AVD-2020-20652",
+		"name": "Apache NiFi API 远程命令执行漏洞",
+		"publish_time": "2020-12-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-20652",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2020-20770",
+		"name": "锐捷网络 EWEB网管系统 guestIsUp.php 远程命令执行漏洞",
+		"publish_time": "2020-10-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-20770"
+	},
+	{
+		"cve_id": "CVE-2020-11800",
+		"avd_id": "AVD-2020-11800",
+		"name": "Zabbix Server 后台 trapper 远程命令执行漏洞",
+		"publish_time": "2020-10-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-11800"
+	},
+	{
+		"cve_id": "CVE-2020-24949",
+		"avd_id": "AVD-2020-24949",
+		"name": "PHP-Fusion远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-269",
+			"value": "特权管理不恰当"
+		},
+		"publish_time": "2020-09-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-24949"
+	},
+	{
+		"avd_id": "AVD-2021-900403",
+		"name": "深信服终端监测响应平台（EDR）远程命令执行漏洞（CNVD-2020-46552）",
+		"publish_time": "2020-08-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-900403"
+	},
+	{
+		"cve_id": "CVE-2020-15871",
+		"avd_id": "AVD-2020-15871",
+		"name": "Nexus Repository Manager 3.x 远程命令执行漏洞CVE-2020-15871",
+		"type": {
+			"cwe_id": "CWE-732",
+			"value": "关键资源的不正确权限授予"
+		},
+		"publish_time": "2020-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-15871",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-883388",
+		"name": "HashiCorp Consul RemoteExec 远程命令执行漏洞",
+		"publish_time": "2020-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-883388",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-883387",
+		"name": "HashiCorp Consul API 远程命令执行漏洞",
+		"publish_time": "2020-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-883387",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2020-15920",
+		"avd_id": "AVD-2020-15920",
+		"name": "Mida Solution eframework ajaxreq.php param 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2020-07-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-15920",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-901062",
+		"name": "用友NC存在JAVA反序列化远程命令执行漏洞（CNVD-2020-33070）",
+		"publish_time": "2020-07-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-901062"
+	},
+	{
+		"cve_id": "CVE-2020-5902",
+		"avd_id": "AVD-2020-5902",
+		"name": "F5 BIG-IP TMUI 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-22",
+			"value": "对路径名的限制不恰当（路径遍历）"
+		},
+		"publish_time": "2020-07-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-5902",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2020-14947",
+		"avd_id": "AVD-2020-14947",
+		"name": "OCS Inventory NG 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2020-07-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-14947",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-901387",
+		"name": "浙江宇视科技有限公司硬盘录像机存在远程命令执行漏洞（CNVD-2020-31565）",
+		"publish_time": "2020-06-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-901387"
+	},
+	{
+		"avd_id": "AVD-2021-901595",
+		"name": "Panabit Panalog sy_addmount.php 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2020-06-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-901595",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2020-13166",
+		"avd_id": "AVD-2020-13166",
+		"name": "MyLittleAdmin 前台远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2020-05-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-13166",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-903008",
+		"name": "D-link DIR-823G路由器固件中的web服务器存在远程命令执行漏洞（CNVD-2020-18766）",
+		"publish_time": "2020-04-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-903008"
+	},
+	{
+		"avd_id": "AVD-2021-903018",
+		"name": "D-link DIR-823G路由器存在远程命令执行漏洞（CNVD-2020-18782）",
+		"publish_time": "2020-04-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-903018"
+	},
+	{
+		"cve_id": "CVE-2020-8794",
+		"avd_id": "AVD-2020-8794",
+		"name": "OpenSMTPD \u003c 6.6.3 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-125",
+			"value": "跨界内存读"
+		},
+		"publish_time": "2020-02-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-8794",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2020-8813",
+		"avd_id": "AVD-2020-8813",
+		"name": "Cacti v1.2.8 graph_realtime.php 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2020-02-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2020-8813"
+	},
+	{
+		"avd_id": "AVD-2021-903323",
+		"name": "Centreon远程命令执行漏洞（CNVD-2020-10441）",
+		"publish_time": "2020-02-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-903323"
+	},
+	{
+		"cve_id": "CVE-2012-5878",
+		"avd_id": "AVD-2012-5878",
+		"name": "Smartphone Pentest Framework 多个远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2020-01-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-5878"
+	},
+	{
+		"cve_id": "CVE-2013-7070",
+		"avd_id": "AVD-2013-7070",
+		"name": "Monitorix HTTP Server ‘handle_request()’远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-74",
+			"value": "输出中的特殊元素转义处理不恰当（注入）"
+		},
+		"publish_time": "2020-01-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-7070"
+	},
+	{
+		"cve_id": "CVE-2004-2776",
+		"avd_id": "AVD-2004-2776",
+		"name": "Pete Stein GoScript 远程命令执行漏洞",
+		"publish_time": "2020-01-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-2776"
+	},
+	{
+		"cve_id": "CVE-2019-17558",
+		"avd_id": "AVD-2019-17558",
+		"name": "Apache Solr Velocity 模版注入远程命令执行漏洞（CVE-2019-17558）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2019-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-17558",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2019-10758",
+		"avd_id": "AVD-2019-10758",
+		"name": "mongo-express \u003c 0.54.0 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-12-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-10758",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-904104",
+		"name": "禅道PMS存在远程命令执行漏洞（CNVD-2019-43664）",
+		"publish_time": "2019-12-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-904104"
+	},
+	{
+		"avd_id": "AVD-2021-904247",
+		"name": "WordPress Plainview Activity Monitor远程命令执行漏洞（CNVD-2019-44249）",
+		"publish_time": "2019-12-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-904247"
+	},
+	{
+		"cve_id": "CVE-2019-12422",
+		"avd_id": "AVD-2019-12422",
+		"name": "Apache Shiro Padding Oracle 远程命令执行漏洞（CVE-2019-12422）",
+		"publish_time": "2019-11-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-12422",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-904615",
+		"name": "ACTi ACM-5611 Camera远程命令执行漏洞（CNVD-2019-38492）",
+		"publish_time": "2019-11-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-904615"
+	},
+	{
+		"avd_id": "AVD-2021-904624",
+		"name": "Apache Solr基于Velocity模板远程命令执行漏洞（CNVD-2019-38290）",
+		"publish_time": "2019-10-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-904624"
+	},
+	{
+		"cve_id": "CVE-2019-5129",
+		"avd_id": "AVD-2019-5129",
+		"name": "YouPHPTube getspiritsfromvideo 远程命令执行漏洞（CVE-2019-5129）",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-10-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-5129",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2019-5128",
+		"avd_id": "AVD-2019-5128",
+		"name": "YouPHPTube getImageMP4 远程命令执行漏洞（CVE-2019-5128）",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-10-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-5128",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2019-5127",
+		"avd_id": "AVD-2019-5127",
+		"name": "YouPHPTube getImage.php 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-10-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-5127"
+	},
+	{
+		"cve_id": "CVE-2019-16278",
+		"avd_id": "AVD-2019-16278",
+		"name": "Nostromo webserver \u003c= 1.9.6 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-22",
+			"value": "对路径名的限制不恰当（路径遍历）"
+		},
+		"publish_time": "2019-10-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-16278",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-904806",
+		"name": "Ajenti远程命令执行漏洞（CNVD-2019-35399）",
+		"publish_time": "2019-10-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-904806"
+	},
+	{
+		"avd_id": "AVD-2021-904846",
+		"name": "Coremail论客客户端存在远程命令执行漏洞（CNVD-2019-30741）",
+		"publish_time": "2019-10-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-904846"
+	},
+	{
+		"avd_id": "AVD-2021-905024",
+		"name": "中兴通讯4G基带系统某进程存在远程命令执行漏洞（CNVD-2019-27740）",
+		"publish_time": "2019-09-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-905024"
+	},
+	{
+		"cve_id": "CVE-2019-5475",
+		"avd_id": "AVD-2019-5475",
+		"name": "Nexus Repository Manager 2.x 远程命令执行漏洞CVE-2019-5475",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-09-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-5475",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-905190",
+		"name": "USR-LTE-7S4 V2存在多个远程命令执行漏洞（CNVD-2019-23509）",
+		"publish_time": "2019-08-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-905190"
+	},
+	{
+		"cve_id": "CVE-2019-15107",
+		"avd_id": "AVD-2019-15107",
+		"name": "Webmin \u003c=1.920 password_change.cgi 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-08-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-15107",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2019-12725",
+		"avd_id": "AVD-2019-12725",
+		"name": "Zeroshell \u003c= 3.9.0 x509view 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-07-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-12725",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-905593",
+		"name": "致远A8+协同管理软件存在远程命令执行漏洞（CNVD-2019-19299）",
+		"publish_time": "2019-06-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-905593"
+	},
+	{
+		"avd_id": "AVD-2021-905896",
+		"name": "Four Faith工业级路由器远程命令执行漏洞（CNVD-2019-13863）",
+		"publish_time": "2019-05-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-905896"
+	},
+	{
+		"cve_id": "CVE-2019-11229",
+		"avd_id": "AVD-2019-11229",
+		"name": "Gitea \u003c 1.8-RC3 repo_mirror 远程命令执行漏洞",
+		"publish_time": "2019-04-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-11229",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2019-0204",
+		"avd_id": "AVD-2019-0204",
+		"name": "Apache Mesos 远程命令执行漏洞（CVE-2019-0204）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2019-03-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-0204"
+	},
+	{
+		"cve_id": "CVE-2019-7238",
+		"avd_id": "AVD-2019-7238",
+		"name": "Nexus Repository Manager 3 coreui_Component 远程命令执行漏洞",
+		"publish_time": "2019-03-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-7238",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2019-0192",
+		"avd_id": "AVD-2019-0192",
+		"name": "Apache Solr jmx.serviceUrl 远程命令执行漏洞（CVE-2019-0192）",
+		"type": {
+			"cwe_id": "CWE-502",
+			"value": "可信数据的反序列化"
+		},
+		"publish_time": "2019-03-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-0192",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2019-1663",
+		"avd_id": "AVD-2019-1663",
+		"name": "Cisco RV110W/RV130W/RV215W Routers 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-787",
+			"value": "跨界内存写"
+		},
+		"publish_time": "2019-03-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2019-1663"
+	},
+	{
+		"avd_id": "AVD-2021-906421",
+		"name": "多个厂商IP Camera未授权远程命令执行漏洞（CNVD-2019-04454）",
+		"publish_time": "2019-02-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-906421"
+	},
+	{
+		"cve_id": "CVE-2016-1000282",
+		"avd_id": "AVD-2016-1000282",
+		"name": "Haraka远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2019-02-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-1000282"
+	},
+	{
+		"avd_id": "AVD-2021-906576",
+		"name": "Webmin远程命令执行漏洞（CNVD-2019-02484）",
+		"publish_time": "2019-01-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-906576"
+	},
+	{
+		"avd_id": "AVD-2021-906694",
+		"name": "锐捷RG-AC128存在远程命令执行漏洞（CNVD-2018-26483）",
+		"publish_time": "2019-01-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-906694"
+	},
+	{
+		"cve_id": "CVE-2018-16167",
+		"avd_id": "AVD-2018-16167",
+		"name": "LogonTracer upload 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2019-01-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-16167"
+	},
+	{
+		"cve_id": "CVE-2018-20062",
+		"avd_id": "AVD-2018-20062",
+		"name": "NoneCms \u003c=1.3 App.php 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2018-12-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-20062",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2018-19537",
+		"avd_id": "AVD-2018-19537",
+		"name": "TP-Link Archer C5 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-434",
+			"value": "危险类型文件的不加限制上传"
+		},
+		"publish_time": "2018-11-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-19537"
+	},
+	{
+		"cve_id": "CVE-2018-16621",
+		"avd_id": "AVD-2018-16621",
+		"name": "Nexus Repository Manager 3 coreui_User 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-917",
+			"value": "表达式语言语句中使用的特殊元素转义处理不恰当（表达式语言注入）"
+		},
+		"publish_time": "2018-11-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-16621",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-907140",
+		"name": "LG Network Storage N1A1DD1 sharedir.php存在远程命令执行漏洞（CNVD-2018-20039）",
+		"publish_time": "2018-10-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-907140"
+	},
+	{
+		"avd_id": "AVD-2021-907139",
+		"name": "LG Network Storage N1A1DD1 task_burning.php存在远程命令执行漏洞（CNVD-2018-20050）",
+		"publish_time": "2018-10-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-907139"
+	},
+	{
+		"avd_id": "AVD-2021-907138",
+		"name": "LG Network Storage N1A1DD1 imgcopy.php存在远程命令执行漏洞（CNVD-2018-20049）",
+		"publish_time": "2018-10-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-907138"
+	},
+	{
+		"cve_id": "CVE-2018-11336",
+		"avd_id": "AVD-2018-11336",
+		"name": "Fastweb FASTGate modem未授权远程命令执行漏洞",
+		"publish_time": "2018-10-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-11336"
+	},
+	{
+		"avd_id": "AVD-2021-907423",
+		"name": "Node-RED未授权远程命令执行漏洞（CNVD-2018-19316）",
+		"publish_time": "2018-09-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-907423"
+	},
+	{
+		"cve_id": "CVE-2018-15887",
+		"avd_id": "AVD-2018-15887",
+		"name": "ASUS DSL-N12E_C1远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2018-08-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-15887"
+	},
+	{
+		"cve_id": "CVE-2018-15685",
+		"avd_id": "AVD-2018-15685",
+		"name": "Electron WebPreferences远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-1188",
+			"value": "不安全的默认资源初始化"
+		},
+		"publish_time": "2018-08-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-15685",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2018-11776",
+		"avd_id": "AVD-2018-11776",
+		"name": "Apache Struts2  2.0.4 ～2.3.34, 2.5.0 ～ 2.5.16 远程命令执行漏洞（S2-057）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2018-08-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-11776",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2014-2302",
+		"avd_id": "AVD-2014-2302",
+		"name": "webEdition CMS 'setup.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2018-07-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-2302"
+	},
+	{
+		"cve_id": "CVE-2018-12972",
+		"avd_id": "AVD-2018-12972",
+		"name": "OpenTSDB 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2018-06-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-12972"
+	},
+	{
+		"cve_id": "CVE-2018-11510",
+		"avd_id": "AVD-2018-11510",
+		"name": "ASURTOR NAS ADM远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2018-06-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-11510"
+	},
+	{
+		"avd_id": "AVD-2021-907984",
+		"name": "Reolink摄像头远程命令执行漏洞（CNVD-2018-11079）",
+		"publish_time": "2018-06-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-907984"
+	},
+	{
+		"cve_id": "CVE-2018-1260",
+		"avd_id": "AVD-2018-1260",
+		"name": "Spring Security OAuth远程命令执行漏洞（CNVD-2018-09368）",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2018-05-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-1260",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2018-10562",
+		"avd_id": "AVD-2018-10562",
+		"name": "GPon路由器远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2018-05-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-10562"
+	},
+	{
+		"avd_id": "AVD-2021-908270",
+		"name": "上海西默通信技术有限公司西默智能DNS存在远程命令执行漏洞（CNVD-2018-05667）",
+		"publish_time": "2018-04-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908270"
+	},
+	{
+		"avd_id": "AVD-2021-908290",
+		"name": "Finecms V5.3.0后台存在远程命令执行漏洞（CNVD-2018-05005）",
+		"publish_time": "2018-04-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908290"
+	},
+	{
+		"cve_id": "CVE-2014-3114",
+		"avd_id": "AVD-2014-3114",
+		"name": "WordPress插件EZPZ One Click Backup 'ezpz-archive-cmd.php cmd'参数远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2018-04-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-3114"
+	},
+	{
+		"cve_id": "CVE-2018-1270",
+		"avd_id": "AVD-2018-1270",
+		"name": "Spring spring-messaging 远程命令执行漏洞 （CVE-2018-1270）",
+		"type": {
+			"cwe_id": "CWE-358",
+			"value": "不恰当实现的标准安全检查"
+		},
+		"publish_time": "2018-04-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-1270",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2018-0171",
+		"avd_id": "AVD-2018-0171",
+		"name": "Cisco Smart Install远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-787",
+			"value": "跨界内存写"
+		},
+		"publish_time": "2018-03-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-0171",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-908413",
+		"name": "HP iLO存在远程命令执行漏洞（CNVD-2018-03886）",
+		"publish_time": "2018-03-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908413"
+	},
+	{
+		"avd_id": "AVD-2021-908474",
+		"name": "NetEx HyperIP Post-Auth远程命令执行漏洞（CNVD-2018-05699）",
+		"publish_time": "2018-03-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908474"
+	},
+	{
+		"avd_id": "AVD-2021-908585",
+		"name": "AVTECH多个产品远程命令执行漏洞（CNVD-2018-04480）",
+		"publish_time": "2018-03-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908585"
+	},
+	{
+		"cve_id": "CVE-2017-5801",
+		"avd_id": "AVD-2017-5801",
+		"name": "HP Business Process Monitor远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-200",
+			"value": "信息暴露"
+		},
+		"publish_time": "2018-02-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-5801"
+	},
+	{
+		"avd_id": "AVD-2021-908686",
+		"name": "中科网威ANYSEC安全网关存在默认口令和远程命令执行漏洞（CNVD-2018-00863）",
+		"publish_time": "2018-02-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908686"
+	},
+	{
+		"avd_id": "AVD-2021-908685",
+		"name": "联想防火墙存在弱口令和远程命令执行漏洞（CNVD-2018-01059）",
+		"publish_time": "2018-02-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908685"
+	},
+	{
+		"cve_id": "CVE-2018-6789",
+		"avd_id": "AVD-2018-6789",
+		"name": "Exim 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-119",
+			"value": "内存缓冲区边界内操作的限制不恰当"
+		},
+		"publish_time": "2018-02-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-6789",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2018-0125",
+		"avd_id": "AVD-2018-0125",
+		"name": "Cisco RV132W ADSL2+ Wireless-N VPN Router和RV134W VDSL2 Wireless-AC VPN Router远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2018-02-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2018-0125"
+	},
+	{
+		"cve_id": "CVE-2015-1416",
+		"avd_id": "AVD-2015-1416",
+		"name": "FreeBSD patch远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2018-02-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-1416"
+	},
+	{
+		"avd_id": "AVD-2021-908775",
+		"name": "NetMizer日志管理系统qq.php文件存在远程命令执行漏洞（CNVD-2017-37548）",
+		"publish_time": "2018-01-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908775"
+	},
+	{
+		"cve_id": "CVE-2017-14095",
+		"avd_id": "AVD-2017-14095",
+		"name": "Trend Micro Smart Protection Server远程命令执行漏洞（CNVD-2018-01119）",
+		"type": {
+			"cwe_id": "CWE-829",
+			"value": "从非可信控制范围包含功能例程"
+		},
+		"publish_time": "2018-01-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-14095"
+	},
+	{
+		"cve_id": "CVE-2017-14094",
+		"avd_id": "AVD-2017-14094",
+		"name": "Trend Micro Smart Protection Server远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-74",
+			"value": "输出中的特殊元素转义处理不恰当（注入）"
+		},
+		"publish_time": "2018-01-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-14094"
+	},
+	{
+		"avd_id": "AVD-2021-908830",
+		"name": "D-Link DIR 615/645/815 service.cgi远程命令执行漏洞（CNVD-2018-01084）",
+		"publish_time": "2018-01-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908830"
+	},
+	{
+		"avd_id": "AVD-2021-908925",
+		"name": "D-Link DSL-6850U路由器远程命令执行漏洞（CNVD-2018-00175）",
+		"publish_time": "2018-01-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908925"
+	},
+	{
+		"cve_id": "CVE-2017-17888",
+		"avd_id": "AVD-2017-17888",
+		"name": "多款产品Anti-We远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-12-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-17888"
+	},
+	{
+		"avd_id": "AVD-2021-908977",
+		"name": "百胜E3全渠道零售管理软件后台存在远程命令执行漏洞（CNVD-2017-35838）",
+		"publish_time": "2017-12-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-908977"
+	},
+	{
+		"cve_id": "CVE-2017-17411",
+		"avd_id": "AVD-2017-17411",
+		"name": "Linksys WVBR0无线网桥远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-12-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-17411"
+	},
+	{
+		"cve_id": "CVE-2017-17522",
+		"avd_id": "AVD-2017-17522",
+		"name": "Python 'Lib/webbrowser.py'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-74",
+			"value": "输出中的特殊元素转义处理不恰当（注入）"
+		},
+		"publish_time": "2017-12-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-17522"
+	},
+	{
+		"cve_id": "CVE-2017-17562",
+		"avd_id": "AVD-2017-17562",
+		"name": "GoAhead 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2017-12-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-17562",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2017-15944",
+		"avd_id": "AVD-2017-15944",
+		"name": "Palo Alto Networks Firewalls 远程命令执行漏洞",
+		"publish_time": "2017-12-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-15944",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2017-12636",
+		"avd_id": "AVD-2017-12636",
+		"name": "CouchDB Query Server 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-11-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-12636",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-909333",
+		"name": "DSIS多媒体信息发布系统存在远程命令执行漏洞（CNVD-2017-30798）",
+		"publish_time": "2017-11-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-909333"
+	},
+	{
+		"cve_id": "CVE-2017-12796",
+		"avd_id": "AVD-2017-12796",
+		"name": "OpenMRS远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-502",
+			"value": "可信数据的反序列化"
+		},
+		"publish_time": "2017-10-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-12796"
+	},
+	{
+		"cve_id": "CVE-2016-4461",
+		"avd_id": "AVD-2016-4461",
+		"name": "Apache Struts2 2.0.0～2.3.28.1 远程命令执行漏洞S2-036（CVE-2016-4461）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2017-10-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-4461",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-909582",
+		"name": "ArcGIS Server远程命令执行漏洞（CNVD-2017-29917）",
+		"publish_time": "2017-10-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-909582"
+	},
+	{
+		"avd_id": "AVD-2021-909613",
+		"name": "Vacron NVR设备远程命令执行漏洞（CNVD-2017-29245）",
+		"publish_time": "2017-10-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-909613"
+	},
+	{
+		"cve_id": "CVE-2017-12611",
+		"avd_id": "AVD-2017-12611",
+		"name": "Apache Struts2 2.0.0 ~ 2.3.33,2.5 ~ 2.5.10.1 远程命令执行漏洞S2-053（CVE-2017-12611）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2017-09-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-12611",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2017-12615",
+		"avd_id": "AVD-2017-12615",
+		"name": "Apache Tomcat PUT 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-434",
+			"value": "危险类型文件的不加限制上传"
+		},
+		"publish_time": "2017-09-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-12615",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2017-14500",
+		"avd_id": "AVD-2017-14500",
+		"name": "Newsbeuter远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-09-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-14500"
+	},
+	{
+		"cve_id": "CVE-2017-9805",
+		"avd_id": "AVD-2017-9805",
+		"name": "Apache Struts2 2.1.6 ～ 2.3.33, 2.5 ～ 2.5.12 远程命令执行漏洞S2-052（CVE-2017-9805）",
+		"type": {
+			"cwe_id": "CWE-502",
+			"value": "可信数据的反序列化"
+		},
+		"publish_time": "2017-09-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-9805",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2017-13067",
+		"avd_id": "AVD-2017-13067",
+		"name": "QNAP远程命令执行漏洞",
+		"publish_time": "2017-09-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-13067"
+	},
+	{
+		"avd_id": "AVD-2021-909850",
+		"name": "REDDOXX Appliance远程命令执行漏洞（CNVD-2017-26168）",
+		"publish_time": "2017-09-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-909850"
+	},
+	{
+		"cve_id": "CVE-2017-11610",
+		"avd_id": "AVD-2017-11610",
+		"name": "Supervisord inet_http_server 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-276",
+			"value": "缺省权限不正确"
+		},
+		"publish_time": "2017-08-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-11610",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-910025",
+		"name": "电梯工程管理系统存在devmode远程命令执行漏洞（CNVD-2017-17898）",
+		"publish_time": "2017-08-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910025"
+	},
+	{
+		"avd_id": "AVD-2021-910024",
+		"name": "红杉树网络视频会议系统存在st2-045远程命令执行漏洞（CNVD-2017-17903）",
+		"publish_time": "2017-08-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910024"
+	},
+	{
+		"cve_id": "CVE-2017-11366",
+		"avd_id": "AVD-2017-11366",
+		"name": "Codiad远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-08-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-11366"
+	},
+	{
+		"avd_id": "AVD-2021-910033",
+		"name": "PDNS Manager远程命令执行漏洞（CNVD-2017-22153）",
+		"publish_time": "2017-08-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910033"
+	},
+	{
+		"avd_id": "AVD-2021-910098",
+		"name": "天镜脆弱性扫描与管理系统存在S2-045远程命令执行漏洞（CNVD-2017-17445）",
+		"publish_time": "2017-08-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910098"
+	},
+	{
+		"avd_id": "AVD-2021-910099",
+		"name": "D-Link DIR系列路由器远程命令执行漏洞（CNVD-2017-20001）",
+		"publish_time": "2017-08-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910099"
+	},
+	{
+		"avd_id": "AVD-2021-910165",
+		"name": "迪普UMC统一管理中心存在St2-045远程命令执行漏洞（CNVD-2017-12070）",
+		"publish_time": "2017-07-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910165"
+	},
+	{
+		"avd_id": "AVD-2021-910206",
+		"name": "惠普打印机远程命令执行漏洞（CNVD-2017-16359）",
+		"publish_time": "2017-07-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910206"
+	},
+	{
+		"avd_id": "AVD-2021-910353",
+		"name": "全国大范围信息安全管理系统存在st2_045远程命令执行漏洞（CNVD-2017-09366）",
+		"publish_time": "2017-07-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910353"
+	},
+	{
+		"cve_id": "CVE-2017-9791",
+		"avd_id": "AVD-2017-9791",
+		"name": "Apache Struts2 2.3.x 远程命令执行漏洞（S2-048）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2017-07-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-9791",
+		"status": "POC 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-910404",
+		"name": "泛微E-Mobile移动办公系统存在Struts2远程命令执行漏洞（CNVD-2017-07285）",
+		"publish_time": "2017-07-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910404"
+	},
+	{
+		"avd_id": "AVD-2021-910494",
+		"name": "无纸化学法用法及考试系统存在s2-045远程命令执行漏洞（CNVD-2017-06410）",
+		"publish_time": "2017-06-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910494"
+	},
+	{
+		"avd_id": "AVD-2021-910493",
+		"name": "中兴通讯Anyservice存在s2-045远程命令执行漏洞（CNVD-2017-06368）",
+		"publish_time": "2017-06-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910493"
+	},
+	{
+		"avd_id": "AVD-2021-910539",
+		"name": "RAP接口管理系统存在s2-045远程命令执行漏洞（CNVD-2017-06169）",
+		"publish_time": "2017-06-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910539"
+	},
+	{
+		"avd_id": "AVD-2021-910534",
+		"name": "Huawei Load Balancer Management System存在s2-045远程命令执行漏洞（CNVD-2017-06129）",
+		"publish_time": "2017-06-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910534"
+	},
+	{
+		"avd_id": "AVD-2021-910556",
+		"name": "神脑EnGenius企业酒店无线AP产品存在远程命令执行漏洞（CNVD-2017-06170）",
+		"publish_time": "2017-06-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910556"
+	},
+	{
+		"cve_id": "CVE-2017-6682",
+		"avd_id": "AVD-2017-6682",
+		"name": "Cisco Elastic Services Controller远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-06-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-6682"
+	},
+	{
+		"avd_id": "AVD-2021-910623",
+		"name": "Foscam camera添加用户处远程命令执行漏洞（CNVD-2017-08911）",
+		"publish_time": "2017-06-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910623"
+	},
+	{
+		"avd_id": "AVD-2021-910622",
+		"name": "Foscam camera远程命令执行漏洞（CNVD-2017-08913）",
+		"publish_time": "2017-06-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910622"
+	},
+	{
+		"cve_id": "CVE-2017-9462",
+		"avd_id": "AVD-2017-9462",
+		"name": "Mercurial hg serve -stdio 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-732",
+			"value": "关键资源的不正确权限授予"
+		},
+		"publish_time": "2017-06-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-9462"
+	},
+	{
+		"avd_id": "AVD-2021-910664",
+		"name": "深圳市环宇互通物流网站管理系统存在Struts2 S2-016远程命令执行漏洞（CNVD-2017-05998）",
+		"publish_time": "2017-06-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910664"
+	},
+	{
+		"avd_id": "AVD-2021-910713",
+		"name": "禅道项目管理系统存在远程命令执行漏洞（CNVD-2017-05820）",
+		"publish_time": "2017-06-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910713"
+	},
+	{
+		"avd_id": "AVD-2021-910726",
+		"name": "海康威视集中监控应用管理系统存在S2-045远程命令执行漏洞（CNVD-2017-04780）",
+		"publish_time": "2017-05-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910726"
+	},
+	{
+		"cve_id": "CVE-2017-2824",
+		"avd_id": "AVD-2017-2824",
+		"name": "Zabbix Server 后台 trapper 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-05-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-2824",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-910747",
+		"name": "MyFAX网络传真服务器存在远程命令执行漏洞（CNVD-2017-04377）",
+		"publish_time": "2017-05-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910747"
+	},
+	{
+		"avd_id": "AVD-2021-910763",
+		"name": "iGuardian安全卫士存在远程命令执行漏洞（CNVD-2017-04213）",
+		"publish_time": "2017-05-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910763"
+	},
+	{
+		"avd_id": "AVD-2021-910779",
+		"name": "上讯信息新一代防火墙系统存在远程命令执行漏洞（CNVD-2017-04151）",
+		"publish_time": "2017-05-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910779"
+	},
+	{
+		"avd_id": "AVD-2021-910812",
+		"name": "北京维方通信息技术有限公司碉堡堡垒机存在S2-045远程命令执行漏洞（CNVD-2017-03990）",
+		"publish_time": "2017-05-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910812"
+	},
+	{
+		"avd_id": "AVD-2021-910809",
+		"name": "中航星北斗智能交通监控平台存在s2-045远程命令执行漏洞（CNVD-2017-03992）",
+		"publish_time": "2017-05-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910809"
+	},
+	{
+		"avd_id": "AVD-2021-910840",
+		"name": "网神SecFox安全审计系统存在s2-045远程命令执行漏洞（CNVD-2017-03567）",
+		"publish_time": "2017-05-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910840"
+	},
+	{
+		"avd_id": "AVD-2021-910826",
+		"name": "Aerohive艾诺威网络设备管理系统存在s2-045远程命令执行漏洞（CNVD-2017-03669）",
+		"publish_time": "2017-05-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910826"
+	},
+	{
+		"avd_id": "AVD-2021-910825",
+		"name": "Aruba Networks - ClearPass Policy Manager存在s2-045远程命令执行漏洞（CNVD-2017-03668）",
+		"publish_time": "2017-05-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910825"
+	},
+	{
+		"avd_id": "AVD-2021-910870",
+		"name": "海康威视多个产品系统存在s2-045远程命令执行漏洞（CNVD-2017-03481）",
+		"publish_time": "2017-05-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910870"
+	},
+	{
+		"avd_id": "AVD-2021-910862",
+		"name": "极地内控堡垒主机存在s2-045远程命令执行漏洞（CNVD-2017-03568）",
+		"publish_time": "2017-05-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910862"
+	},
+	{
+		"cve_id": "CVE-2017-8799",
+		"avd_id": "AVD-2017-8799",
+		"name": "iRODS远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-05-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-8799"
+	},
+	{
+		"avd_id": "AVD-2021-910879",
+		"name": "AlienVault OSSIM和USM远程命令执行漏洞（CNVD-2017-05959）",
+		"publish_time": "2017-05-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910879"
+	},
+	{
+		"cve_id": "CVE-2015-8257",
+		"avd_id": "AVD-2015-8257",
+		"name": "多款AXIS产品远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2017-05-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-8257"
+	},
+	{
+		"avd_id": "AVD-2021-910891",
+		"name": "湖南青果软件有限公司KINGOSOFT高校教务网络管理系统存在s2-045远程命令执行漏洞（CNVD-2017-03442）",
+		"publish_time": "2017-05-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910891"
+	},
+	{
+		"avd_id": "AVD-2021-910930",
+		"name": "Horde Groupware Webmail远程命令执行漏洞（CNVD-2017-05368）",
+		"publish_time": "2017-04-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910930"
+	},
+	{
+		"avd_id": "AVD-2021-910960",
+		"name": "索易科技CMS网站管理平台存在s2-045远程命令执行漏洞（CNVD-2017-02980）",
+		"publish_time": "2017-04-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910960"
+	},
+	{
+		"avd_id": "AVD-2021-910973",
+		"name": "南京苏迪科技Webplus pro存在s2-045远程命令执行漏洞（CNVD-2017-02967）",
+		"publish_time": "2017-04-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-910973"
+	},
+	{
+		"cve_id": "CVE-2017-6619",
+		"avd_id": "AVD-2017-6619",
+		"name": "Cisco Integrated Management Controller远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2017-04-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-6619"
+	},
+	{
+		"cve_id": "CVE-2017-6884",
+		"avd_id": "AVD-2017-6884",
+		"name": "ZyXEL EMG2926路由器远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-04-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-6884"
+	},
+	{
+		"avd_id": "AVD-2021-911049",
+		"name": "欧虎政务系统set_border_color.php文件远程命令执行漏洞（CNVD-2017-03868）",
+		"publish_time": "2017-04-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911049"
+	},
+	{
+		"avd_id": "AVD-2021-911072",
+		"name": "深海捷Mixcall座席管理中心files参数存在远程命令执行漏洞（CNVD-2017-01966）",
+		"publish_time": "2017-03-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911072"
+	},
+	{
+		"cve_id": "CVE-2017-6361",
+		"avd_id": "AVD-2017-6361",
+		"name": "QNAP QTS authLogin.cgi 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-03-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-6361"
+	},
+	{
+		"cve_id": "CVE-2017-6360",
+		"avd_id": "AVD-2017-6360",
+		"name": "QNAP QTS cloudPersonalSmtp 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2017-03-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-6360"
+	},
+	{
+		"avd_id": "AVD-2021-911209",
+		"name": "Wireless IP Camera (P2P) WIFICAM远程命令执行漏洞（CNVD-2017-02775）",
+		"publish_time": "2017-03-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911209"
+	},
+	{
+		"avd_id": "AVD-2021-911208",
+		"name": "Wireless IP Camera (P2P) WIFICAM预授权远程命令执行漏洞（CNVD-2017-02776）",
+		"publish_time": "2017-03-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911208"
+	},
+	{
+		"cve_id": "CVE-2017-5638",
+		"avd_id": "AVD-2017-5638",
+		"name": "Apache Struts2 2.3.5 ~ 2.3.31, 2.5 ~ 2.5.10 远程命令执行漏洞S2-046/S2-045（CVE-2017-5638）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2017-03-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-5638",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-911246",
+		"name": "Sonicwall SRA viewcert.cgi远程命令执行漏洞（CNVD-2017-02500）",
+		"publish_time": "2017-03-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911246"
+	},
+	{
+		"cve_id": "CVE-2016-10194",
+		"avd_id": "AVD-2016-10194",
+		"name": "festivaltts4r gem for Ruby远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2017-03-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-10194"
+	},
+	{
+		"cve_id": "CVE-2016-10193",
+		"avd_id": "AVD-2016-10193",
+		"name": "espeak-ruby gem远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-284",
+			"value": "访问控制不恰当"
+		},
+		"publish_time": "2017-03-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-10193"
+	},
+	{
+		"avd_id": "AVD-2021-911272",
+		"name": "Tenable Nessus远程命令执行漏洞（CNVD-2017-02340）",
+		"publish_time": "2017-03-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911272"
+	},
+	{
+		"avd_id": "AVD-2021-911276",
+		"name": "Netgear DGN2201 dnslookup.cgi远程命令执行漏洞（CNVD-2017-02272）",
+		"publish_time": "2017-03-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911276"
+	},
+	{
+		"cve_id": "CVE-2016-5796",
+		"avd_id": "AVD-2016-5796",
+		"name": "Fatek Automation PM Designer远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-119",
+			"value": "内存缓冲区边界内操作的限制不恰当"
+		},
+		"publish_time": "2017-02-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-5796"
+	},
+	{
+		"cve_id": "CVE-2016-2788",
+		"avd_id": "AVD-2016-2788",
+		"name": "Puppet Mcollective远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-284",
+			"value": "访问控制不恰当"
+		},
+		"publish_time": "2017-02-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-2788"
+	},
+	{
+		"avd_id": "AVD-2021-911450",
+		"name": "Ghostscript远程命令执行漏洞（CNVD-2017-01272）",
+		"publish_time": "2017-02-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911450"
+	},
+	{
+		"avd_id": "AVD-2021-911530",
+		"name": "深圳鹏教项目管理系统存在Struts2远程命令执行漏洞（CNVD-2016-12589）",
+		"publish_time": "2017-01-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911530"
+	},
+	{
+		"cve_id": "CVE-2017-3241",
+		"avd_id": "AVD-2017-3241",
+		"name": "Java RMI 反序列化远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2017-01-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2017-3241",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2016-4338",
+		"avd_id": "AVD-2016-4338",
+		"name": "Zabbix SIA Zabbix Agent远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-89",
+			"value": "SQL命令中使用的特殊元素转义处理不恰当（SQL注入）"
+		},
+		"publish_time": "2017-01-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-4338"
+	},
+	{
+		"avd_id": "AVD-2021-911576",
+		"name": "Samsung Smartcam远程命令执行漏洞（CNVD-2017-00476）",
+		"publish_time": "2017-01-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911576"
+	},
+	{
+		"avd_id": "AVD-2021-911618",
+		"name": "国富安安全认证网关存在远程命令执行漏洞（CNVD-2016-11527）",
+		"publish_time": "2017-01-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911618"
+	},
+	{
+		"cve_id": "CVE-2016-8705",
+		"avd_id": "AVD-2016-8705",
+		"name": "Memcached UPDATE 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-190",
+			"value": "整数溢出或超界折返"
+		},
+		"publish_time": "2017-01-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-8705"
+	},
+	{
+		"cve_id": "CVE-2016-8704",
+		"avd_id": "AVD-2016-8704",
+		"name": "Memcached APPEND/PREPEND 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-190",
+			"value": "整数溢出或超界折返"
+		},
+		"publish_time": "2017-01-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-8704"
+	},
+	{
+		"avd_id": "AVD-2021-911663",
+		"name": "联合文化邮币卡交易中心邮币卡交易平台存在Struts2远程命令执行漏洞（CNVD-2016-05563）",
+		"publish_time": "2016-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911663"
+	},
+	{
+		"avd_id": "AVD-2021-911672",
+		"name": "ZyXEL P660HN-T v1路由器未经身份验证的远程命令执行漏洞（CNVD-2016-13303）",
+		"publish_time": "2016-12-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911672"
+	},
+	{
+		"avd_id": "AVD-2021-911671",
+		"name": "ZyXEL Billion 5200W-T路由器未经身份验证的远程命令执行漏洞（CNVD-2016-13302）",
+		"publish_time": "2016-12-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911671"
+	},
+	{
+		"avd_id": "AVD-2021-911670",
+		"name": "ZyXEL Billion 5200W-T路由器远程命令执行漏洞（CNVD-2016-13301）",
+		"publish_time": "2016-12-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911670"
+	},
+	{
+		"avd_id": "AVD-2021-911669",
+		"name": "ZyXEL P660HN-T v2路由器未经身份验证的远程命令执行漏洞（CNVD-2016-13300）",
+		"publish_time": "2016-12-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911669"
+	},
+	{
+		"avd_id": "AVD-2021-911712",
+		"name": "SAP BusinessObjects BI Platform远程命令执行漏洞（CNVD-2016-13030）",
+		"publish_time": "2016-12-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911712"
+	},
+	{
+		"avd_id": "AVD-2021-911826",
+		"name": "Discuz x3.2远程命令执行漏洞（CNVD-2016-07706）",
+		"publish_time": "2016-12-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-911826"
+	},
+	{
+		"cve_id": "CVE-2016-6633",
+		"avd_id": "AVD-2016-6633",
+		"name": "phpMyAdmin远程命令执行漏洞",
+		"publish_time": "2016-12-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-6633"
+	},
+	{
+		"avd_id": "AVD-2021-912072",
+		"name": "EasyPHP Devserver远程命令执行漏洞（CNVD-2016-11560）",
+		"publish_time": "2016-11-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912072"
+	},
+	{
+		"avd_id": "AVD-2021-912221",
+		"name": "顺网无线智能控制器远程命令执行漏洞（CNVD-2016-08601）",
+		"publish_time": "2016-11-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912221"
+	},
+	{
+		"avd_id": "AVD-2021-912325",
+		"name": "成都康赛信息技术有限公司普教云产品存在Struts2 devMode远程命令执行漏洞（CNVD-2016-06484）",
+		"publish_time": "2016-11-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912325"
+	},
+	{
+		"avd_id": "AVD-2021-912431",
+		"name": "KeepNote远程命令执行漏洞（CNVD-2016-09594）",
+		"publish_time": "2016-10-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912431"
+	},
+	{
+		"avd_id": "AVD-2021-912553",
+		"name": "FreePBX远程命令执行漏洞（CNVD-2016-08542）",
+		"publish_time": "2016-10-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912553"
+	},
+	{
+		"cve_id": "CVE-2016-6435",
+		"avd_id": "AVD-2016-6435",
+		"name": "Cisco Firepower Threat Management Console远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-200",
+			"value": "信息暴露"
+		},
+		"publish_time": "2016-10-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-6435"
+	},
+	{
+		"cve_id": "CVE-2016-6137",
+		"avd_id": "AVD-2016-6137",
+		"name": "SAP TREX远程命令执行漏洞",
+		"publish_time": "2016-09-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-6137"
+	},
+	{
+		"avd_id": "AVD-2021-912743",
+		"name": "国瑞数码备案管理系统存在Struts2远程命令执行漏洞（CNVD-2016-05699）",
+		"publish_time": "2016-09-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912743"
+	},
+	{
+		"avd_id": "AVD-2021-912751",
+		"name": "TYPO3 Frontend User Registration远程命令执行漏洞（CNVD-2016-07832）",
+		"publish_time": "2016-09-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912751"
+	},
+	{
+		"avd_id": "AVD-2021-912750",
+		"name": "Trend Micro SafeSync for Enterprise存在未明远程命令执行漏洞（CNVD-2016-07834）",
+		"publish_time": "2016-09-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912750"
+	},
+	{
+		"avd_id": "AVD-2021-912800",
+		"name": "上海首信信息科技有限公司Airsoft工程企业管理平台存在远程命令执行漏洞（CNVD-2016-06628）",
+		"publish_time": "2016-09-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912800"
+	},
+	{
+		"avd_id": "AVD-2021-912805",
+		"name": "AlienVault Unified Security Management远程命令执行漏洞（CNVD-2016-07556）",
+		"publish_time": "2016-09-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912805"
+	},
+	{
+		"avd_id": "AVD-2021-912803",
+		"name": "Blue Coat K9 Web Protection远程命令执行漏洞（CNVD-2016-07567）",
+		"publish_time": "2016-09-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912803"
+	},
+	{
+		"avd_id": "AVD-2021-912822",
+		"name": "清流迅（北京）科技有限公司视频设备系统存在远程命令执行漏洞（CNVD-2016-06024）",
+		"publish_time": "2016-09-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912822"
+	},
+	{
+		"cve_id": "CVE-2016-7125",
+		"avd_id": "AVD-2016-7125",
+		"name": "PHP 'ext/session/session.c'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-74",
+			"value": "输出中的特殊元素转义处理不恰当（注入）"
+		},
+		"publish_time": "2016-09-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-7125"
+	},
+	{
+		"cve_id": "CVE-2016-3862",
+		"avd_id": "AVD-2016-3862",
+		"name": "Google Android Mediaserver远程命令执行漏洞（CNVD-2016-07464）",
+		"type": {
+			"cwe_id": "CWE-119",
+			"value": "内存缓冲区边界内操作的限制不恰当"
+		},
+		"publish_time": "2016-09-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-3862"
+	},
+	{
+		"avd_id": "AVD-2021-912860",
+		"name": "有色金属技术经济研究院office办公系统存在远程命令执行漏洞（CNVD-2016-05876）",
+		"publish_time": "2016-09-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912860"
+	},
+	{
+		"avd_id": "AVD-2021-912843",
+		"name": "金伦科技呼叫系统存在SQL注入、远程命令执行漏洞（CNVD-2016-07457）",
+		"publish_time": "2016-09-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912843"
+	},
+	{
+		"avd_id": "AVD-2021-912886",
+		"name": "清流迅（北京）科技有限公司视频设备系统$format参数存在远程命令执行漏洞（CNVD-2016-05893）",
+		"publish_time": "2016-09-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912886"
+	},
+	{
+		"avd_id": "AVD-2021-912917",
+		"name": "多款Barracuda产品远程命令执行漏洞（CNVD-2016-07153）",
+		"publish_time": "2016-09-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912917"
+	},
+	{
+		"avd_id": "AVD-2021-912905",
+		"name": "PHP 'unserialize()'内存错误引用远程命令执行漏洞（CNVD-2016-07123）",
+		"publish_time": "2016-09-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912905"
+	},
+	{
+		"avd_id": "AVD-2021-912937",
+		"name": "Foxit Reader和PhantomPDF远程命令执行漏洞（CNVD-2016-07025）",
+		"publish_time": "2016-09-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912937"
+	},
+	{
+		"avd_id": "AVD-2021-912936",
+		"name": "Foxit Reader and Foxit PhantomPDF越界读写远程命令执行漏洞（CNVD-2016-07026）",
+		"publish_time": "2016-09-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912936"
+	},
+	{
+		"avd_id": "AVD-2021-912934",
+		"name": "Foxit Reader and Foxit PhantomPDF存在多个远程命令执行漏洞（CNVD-2016-07028）",
+		"publish_time": "2016-09-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912934"
+	},
+	{
+		"avd_id": "AVD-2021-912933",
+		"name": "Foxit Reader and PhantomPDF DLL加载远程命令执行漏洞（CNVD-2016-07029）",
+		"publish_time": "2016-09-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912933"
+	},
+	{
+		"avd_id": "AVD-2021-912930",
+		"name": "Foxit Reader和PhantomPDF远程命令执行漏洞（CNVD-2016-07030）",
+		"publish_time": "2016-09-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912930"
+	},
+	{
+		"cve_id": "CVE-2016-5336",
+		"avd_id": "AVD-2016-5336",
+		"name": "VMware vRealize Automation远程命令执行漏洞",
+		"publish_time": "2016-08-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-5336"
+	},
+	{
+		"avd_id": "AVD-2021-912990",
+		"name": "PHP 'mbstring/php_mbregex.c'远程命令执行漏洞（CNVD-2016-06924）",
+		"publish_time": "2016-08-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-912990"
+	},
+	{
+		"avd_id": "AVD-2021-913024",
+		"name": "紫光防火墙某些版本存在远程命令执行漏洞（CNVD-2016-06731）",
+		"publish_time": "2016-08-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913024"
+	},
+	{
+		"cve_id": "CVE-2016-1457",
+		"avd_id": "AVD-2016-1457",
+		"name": "Cisco Firepower Management Center远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2016-08-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-1457"
+	},
+	{
+		"avd_id": "AVD-2021-913139",
+		"name": "Barracuda Web App Firewall/Load Balancer远程命令执行漏洞（CNVD-2016-06010）",
+		"publish_time": "2016-08-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913139"
+	},
+	{
+		"avd_id": "AVD-2021-913162",
+		"name": "NETRUN VPN上网行为管理路由器任意文件读取和远程命令执行漏洞（CNVD-2016-05900）",
+		"publish_time": "2016-08-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913162"
+	},
+	{
+		"avd_id": "AVD-2021-913160",
+		"name": "酒店建站系统wap系统存在struts2远程命令执行漏洞（CNVD-2016-05878）",
+		"publish_time": "2016-08-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913160"
+	},
+	{
+		"avd_id": "AVD-2021-913159",
+		"name": "婚纱摄影系统存在struts2远程命令执行漏洞（CNVD-2016-05879）",
+		"publish_time": "2016-08-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913159"
+	},
+	{
+		"avd_id": "AVD-2021-913157",
+		"name": "IPUB联网数字标牌管理系统v5.5版存在struts2远程命令执行漏洞（CNVD-2016-05881）",
+		"publish_time": "2016-08-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913157"
+	},
+	{
+		"avd_id": "AVD-2021-913146",
+		"name": "广州新软计算机技术有限公司新软协同办公系统集团版存在Struts2远程命令执行漏洞（CNVD-2016-06599）",
+		"publish_time": "2016-08-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913146"
+	},
+	{
+		"avd_id": "AVD-2021-913194",
+		"name": "Centreon Web界面远程命令执行漏洞（CNVD-2016-05848）",
+		"publish_time": "2016-08-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913194"
+	},
+	{
+		"avd_id": "AVD-2021-913219",
+		"name": "北京北大方正电子有限公司畅享全媒体生产系统存在java反序列化远程命令执行漏洞（CNVD-2016-05793）",
+		"publish_time": "2016-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913219"
+	},
+	{
+		"avd_id": "AVD-2021-913211",
+		"name": "金山KingGate防火墙存在远程命令执行漏洞（CNVD-2016-05713）",
+		"publish_time": "2016-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913211"
+	},
+	{
+		"avd_id": "AVD-2021-913210",
+		"name": "金山KingGate防火墙schedule.php页面中的IG_dir参数存在远程命令执行漏洞（CNVD-2016-05714）",
+		"publish_time": "2016-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913210"
+	},
+	{
+		"avd_id": "AVD-2021-913209",
+		"name": "金山KingGate防火墙存在远程命令执行漏洞（CNVD-2016-05715）",
+		"publish_time": "2016-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913209"
+	},
+	{
+		"avd_id": "AVD-2021-913208",
+		"name": "金山KingGate防火墙存在远程命令执行漏洞（CNVD-2016-05716）",
+		"publish_time": "2016-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913208"
+	},
+	{
+		"avd_id": "AVD-2021-913207",
+		"name": "金山防火墙系统存在远程命令执行漏洞（CNVD-2016-05717）",
+		"publish_time": "2016-08-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913207"
+	},
+	{
+		"avd_id": "AVD-2021-913253",
+		"name": "投资项目审计管理系统存在Struts2远程命令执行漏洞（CNVD-2016-05608）",
+		"publish_time": "2016-07-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913253"
+	},
+	{
+		"avd_id": "AVD-2021-913251",
+		"name": "北京互融时代软件有限公司OA系统存在Struts2远程命令执行漏洞（CNVD-2016-05625）",
+		"publish_time": "2016-07-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913251"
+	},
+	{
+		"avd_id": "AVD-2021-913266",
+		"name": "SAP Predictive Analytics远程命令执行漏洞（CNVD-2016-05514）",
+		"publish_time": "2016-07-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913266"
+	},
+	{
+		"avd_id": "AVD-2021-913303",
+		"name": "op5 Monitor 'cmd_str'参数远程命令执行漏洞（CNVD-2016-05458）",
+		"publish_time": "2016-07-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913303"
+	},
+	{
+		"avd_id": "AVD-2021-913468",
+		"name": "中科商软B2B平台存在Struts2远程命令执行漏洞（CNVD-2016-07761）",
+		"publish_time": "2016-07-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913468"
+	},
+	{
+		"cve_id": "CVE-2016-4438",
+		"avd_id": "AVD-2016-4438",
+		"name": "Apache Struts2 2.3.20～2.3.28.1 远程命令执行漏洞 S2-037（CVE-2016-4438）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2016-07-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-4438",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2016-3087",
+		"avd_id": "AVD-2016-3087",
+		"name": "Apache Struts2 2.3.20～2.3.28 远程命令执行漏洞 S2-033（CVE-2016-3087）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2016-06-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-3087",
+		"status": "EXP 已公开"
+	},
+	{
+		"avd_id": "AVD-2021-913529",
+		"name": "金山KingGate防火墙ipmac.php页面中的IG_checkbox8参数存在远程命令执行漏洞（CNVD-2016-06988）",
+		"publish_time": "2016-06-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913529"
+	},
+	{
+		"avd_id": "AVD-2021-913579",
+		"name": "安恒信息安全备案及不良信息监测系统存在远程命令执行漏洞（CNVD-2016-02618）",
+		"publish_time": "2016-05-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913579"
+	},
+	{
+		"avd_id": "AVD-2021-913602",
+		"name": "File Replication Pro远程命令执行漏洞（CNVD-2016-03266）",
+		"publish_time": "2016-05-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913602"
+	},
+	{
+		"avd_id": "AVD-2021-913621",
+		"name": "长春长信华天科技有限公司房地产管理系统存在通用型Java反序列化远程命令执行漏洞（CNVD-2016-12752）",
+		"publish_time": "2016-05-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913621"
+	},
+	{
+		"cve_id": "CVE-2016-3081",
+		"avd_id": "AVD-2016-3081",
+		"name": "Apache Struts2 2.3.20～2.3.28 远程命令执行漏洞S2-032（CVE-2016-3081）",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2016-04-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-3081",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2016-0785",
+		"avd_id": "AVD-2016-0785",
+		"name": "Apache Struts2 2.0.0～ 2.3.24.1 不含2.3.20.3 远程命令执行漏洞 S2-029（CVE-2016-0785）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2016-04-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2016-0785",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"avd_id": "AVD-2021-913845",
+		"name": "Textual远程命令执行漏洞（CNVD-2016-01395）",
+		"publish_time": "2016-03-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913845"
+	},
+	{
+		"avd_id": "AVD-2021-913905",
+		"name": "掌中机票出票系统存在Struts2远程命令执行漏洞（CNVD-2016-06974）",
+		"publish_time": "2016-02-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913905"
+	},
+	{
+		"cve_id": "CVE-2015-8151",
+		"avd_id": "AVD-2015-8151",
+		"name": "Symantec Encryption Management Server (SEMS) OS远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2016-02-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-8151"
+	},
+	{
+		"avd_id": "AVD-2021-913916",
+		"name": "兰贝斯信息科技会计管理系统存在java反序列化远程命令执行漏洞（CNVD-2017-02349）",
+		"publish_time": "2016-02-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913916"
+	},
+	{
+		"avd_id": "AVD-2021-913937",
+		"name": "上海格尔软件股份有限公司安全认证网关service_path参数存在远程命令执行漏洞（CNVD-2017-02348）",
+		"publish_time": "2016-02-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913937"
+	},
+	{
+		"avd_id": "AVD-2021-913958",
+		"name": "北京华夏创新科技有限公司LotAPP应用交付系统存在远程命令执行漏洞（CNVD-2016-06618）",
+		"publish_time": "2016-02-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913958"
+	},
+	{
+		"avd_id": "AVD-2021-913960",
+		"name": "extmail邮件系统存在远程命令执行漏洞（CNVD-2016-07364）",
+		"publish_time": "2016-02-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-913960"
+	},
+	{
+		"cve_id": "CVE-2015-7788",
+		"avd_id": "AVD-2015-7788",
+		"name": "WL-330NUL远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2015-12-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-7788"
+	},
+	{
+		"avd_id": "AVD-2021-914063",
+		"name": "Joomla远程命令执行漏洞（CNVD-2015-08250）",
+		"publish_time": "2015-12-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-914063"
+	},
+	{
+		"cve_id": "CVE-2015-7808",
+		"avd_id": "AVD-2015-7808",
+		"name": "vBulletin远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2015-11-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-7808",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2015-6867",
+		"avd_id": "AVD-2015-6867",
+		"name": "Hewlett-Packard Vertica vertica-udx-zygote远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-284",
+			"value": "访问控制不恰当"
+		},
+		"publish_time": "2015-11-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-6867"
+	},
+	{
+		"cve_id": "CVE-2015-2011",
+		"avd_id": "AVD-2015-2011",
+		"name": "IBM QRadar Security Information and Event Manager远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2015-10-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-2011"
+	},
+	{
+		"avd_id": "AVD-2021-914338",
+		"name": "Cisco Prime Infrastructure SUID Root Binaries远程命令执行漏洞（CNVD-2015-05669）",
+		"publish_time": "2015-08-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-914338"
+	},
+	{
+		"cve_id": "CVE-2015-1561",
+		"avd_id": "AVD-2015-1561",
+		"name": "Merethis Centreon‘getStats.php’远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2015-07-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-1561"
+	},
+	{
+		"cve_id": "CVE-2015-5371",
+		"avd_id": "AVD-2015-5371",
+		"name": "SolarWinds Storage Manager AuthenticationFilter远程命令执行漏洞",
+		"publish_time": "2015-07-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-5371"
+	},
+	{
+		"cve_id": "CVE-2015-4336",
+		"avd_id": "AVD-2015-4336",
+		"name": "WordPress插件XCloner远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2015-06-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-4336"
+	},
+	{
+		"avd_id": "AVD-2021-914673",
+		"name": "深圳市惠尔顿信息技术有限公司上网行为管理系统存在远程命令执行漏洞（CNVD-2016-06868）",
+		"publish_time": "2015-06-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-914673"
+	},
+	{
+		"cve_id": "CVE-2015-0160",
+		"avd_id": "AVD-2015-0160",
+		"name": "IBM Security SiteProtector System远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2015-05-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-0160"
+	},
+	{
+		"cve_id": "CVE-2015-3306",
+		"avd_id": "AVD-2015-3306",
+		"name": "ProFTPd (mod_copy)远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-284",
+			"value": "访问控制不恰当"
+		},
+		"publish_time": "2015-05-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-3306",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2015-2117",
+		"avd_id": "AVD-2015-2117",
+		"name": "HP TippingPoint Security Management System和TippingPoint Virtual Security Management System远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-287",
+			"value": "认证机制不恰当"
+		},
+		"publish_time": "2015-04-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2015-2117"
+	},
+	{
+		"cve_id": "CVE-2014-6141",
+		"avd_id": "AVD-2014-6141",
+		"name": "IBM Tivoli Monitoring远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2015-02-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-6141"
+	},
+	{
+		"avd_id": "AVD-2021-915200",
+		"name": "Asuswrt 'infosvr'远程命令执行漏洞（CNVD-2015-00156）",
+		"publish_time": "2015-01-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-915200"
+	},
+	{
+		"cve_id": "CVE-2014-7178",
+		"avd_id": "AVD-2014-7178",
+		"name": "Enalean Tuleap 'SVN/ viewvc.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2014-11-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-7178"
+	},
+	{
+		"cve_id": "CVE-2014-9001",
+		"avd_id": "AVD-2014-9001",
+		"name": "Incredible PBX 11 'reminders/index.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2014-11-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-9001"
+	},
+	{
+		"cve_id": "CVE-2014-1929",
+		"avd_id": "AVD-2014-1929",
+		"name": "Python-gnupg远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2014-10-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-1929"
+	},
+	{
+		"cve_id": "CVE-2014-3686",
+		"avd_id": "AVD-2014-3686",
+		"name": "wpa_supplicant及hostapd远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2014-10-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-3686"
+	},
+	{
+		"cve_id": "CVE-2014-7235",
+		"avd_id": "AVD-2014-7235",
+		"name": "FreePBX 'index.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2014-10-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-7235"
+	},
+	{
+		"cve_id": "CVE-2014-5521",
+		"avd_id": "AVD-2014-5521",
+		"name": "XRMS CRM 'plugins/useradmin/fingeruser.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-89",
+			"value": "SQL命令中使用的特殊元素转义处理不恰当（SQL注入）"
+		},
+		"publish_time": "2014-09-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-5521"
+	},
+	{
+		"cve_id": "CVE-2013-5758",
+		"avd_id": "AVD-2013-5758",
+		"name": "Yealink VoIP Phone SIP-T38G 'cgiServer.exx'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2014-08-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-5758"
+	},
+	{
+		"avd_id": "AVD-2021-705771",
+		"name": "海康威视视频联网监控系统ivms-8100远程命令执行漏洞（CNVD-2014-09085）",
+		"publish_time": "2014-08-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-705771"
+	},
+	{
+		"avd_id": "AVD-2021-705901",
+		"name": "Lunar CMS 'connector.php'存在多个远程命令执行漏洞（CNVD-2014-03919）",
+		"publish_time": "2014-06-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-705901"
+	},
+	{
+		"cve_id": "CVE-2014-3496",
+		"avd_id": "AVD-2014-3496",
+		"name": "Red Hat OpenShift Enterprise 'rubygem-openshift-origin-node'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2014-06-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-3496"
+	},
+	{
+		"cve_id": "CVE-2014-3121",
+		"avd_id": "AVD-2014-3121",
+		"name": "RXVT-Unicode远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2014-05-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-3121"
+	},
+	{
+		"avd_id": "AVD-2021-706164",
+		"name": "WebTitan管理界面系统网络域名字段远程命令执行漏洞（CNVD-2014-02630）",
+		"publish_time": "2014-04-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706164"
+	},
+	{
+		"avd_id": "AVD-2021-706162",
+		"name": "WebTitan管理界面诊断页的多个实用工具存在远程命令执行漏洞（CNVD-2014-02628）",
+		"publish_time": "2014-04-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706162"
+	},
+	{
+		"avd_id": "AVD-2021-706161",
+		"name": "WebTitan管理界面网络Page Hostname字段远程命令执行漏洞（CNVD-2014-02627）",
+		"publish_time": "2014-04-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706161"
+	},
+	{
+		"cve_id": "CVE-2014-2328",
+		"avd_id": "AVD-2014-2328",
+		"name": "Cacti存在未明远程命令执行漏洞",
+		"publish_time": "2014-04-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-2328"
+	},
+	{
+		"cve_id": "CVE-2014-0359",
+		"avd_id": "AVD-2014-0359",
+		"name": "Xangati XSR和XNR 'gui_input_test.pl'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2014-04-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-0359"
+	},
+	{
+		"cve_id": "CVE-2014-0773",
+		"avd_id": "AVD-2014-0773",
+		"name": "Advantech WebAccess bwocxrun.ocx CreateProcess方法远程命令执行漏洞",
+		"publish_time": "2014-04-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2014-0773"
+	},
+	{
+		"avd_id": "AVD-2021-706237",
+		"name": "Rhythm File Manager HTTP服务器远程命令执行漏洞（CNVD-2014-02172）",
+		"publish_time": "2014-04-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706237"
+	},
+	{
+		"avd_id": "AVD-2021-706258",
+		"name": "Primo Interactive CMS 'pcm.cgi'远程命令执行漏洞（CNVD-2014-02100）",
+		"publish_time": "2014-04-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706258"
+	},
+	{
+		"avd_id": "AVD-2021-706279",
+		"name": "Beheer Systeem 'pbs.cgi'远程命令执行漏洞（CNVD-2014-02052）",
+		"publish_time": "2014-04-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706279"
+	},
+	{
+		"avd_id": "AVD-2021-706272",
+		"name": "DotItYourself 'dot-it-yourself.cgi'远程命令执行漏洞（CNVD-2014-02037）",
+		"publish_time": "2014-04-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706272"
+	},
+	{
+		"avd_id": "AVD-2021-706309",
+		"name": "innoEDIT 'innoedit.cgi'远程命令执行漏洞（CNVD-2014-01934）",
+		"publish_time": "2014-03-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706309"
+	},
+	{
+		"avd_id": "AVD-2021-706471",
+		"name": "FreePBX 'usersnum'参数远程命令执行漏洞（CNVD-2014-01317）",
+		"publish_time": "2014-02-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706471"
+	},
+	{
+		"avd_id": "AVD-2021-706622",
+		"name": "NETGEAR D6300B /diag.cgi IPAddr4参数远程命令执行漏洞（CNVD-2014-00712）",
+		"publish_time": "2014-02-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706622"
+	},
+	{
+		"cve_id": "CVE-2013-6955",
+		"avd_id": "AVD-2013-6955",
+		"name": "Synology DiskStation Manager 'imageSelector.cgi'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2014-01-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-6955"
+	},
+	{
+		"cve_id": "CVE-2012-0261",
+		"avd_id": "AVD-2012-0261",
+		"name": "op5 Appliance存在未明远程命令执行漏洞（CNVD-2011-5523）",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2014-01-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-0261"
+	},
+	{
+		"avd_id": "AVD-2021-706909",
+		"name": "General Electric (GE) Proficy HMI/SCADA - CIMPLICITY gefebt.exe远程命令执行漏洞（CNVD-2013-15501）",
+		"publish_time": "2013-12-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706909"
+	},
+	{
+		"avd_id": "AVD-2021-706908",
+		"name": "General Electric (GE) Proficy HMI/SCADA - CIMPLICITY WebView存在未明远程命令执行漏洞（CNVD-2013-15504）",
+		"publish_time": "2013-12-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-706908"
+	},
+	{
+		"cve_id": "CVE-2013-6824",
+		"avd_id": "AVD-2013-6824",
+		"name": "Zabbix Agent Flexible User参数换行处理远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2013-12-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-6824"
+	},
+	{
+		"cve_id": "CVE-2013-7050",
+		"avd_id": "AVD-2013-7050",
+		"name": "Debian devscripts 'uscan'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2013-12-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-7050"
+	},
+	{
+		"avd_id": "AVD-2021-707038",
+		"name": "Monitorix HTTP Server远程命令执行漏洞（CNVD-2013-14770）",
+		"publish_time": "2013-11-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-707038"
+	},
+	{
+		"avd_id": "AVD-2021-707247",
+		"name": "cPanel WHM Apache mod_userdir Tweak接口远程命令执行漏洞（CNVD-2013-14141）",
+		"publish_time": "2013-10-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-707247"
+	},
+	{
+		"avd_id": "AVD-2021-707244",
+		"name": "cPanel WHM logaholic_lang cookie处理存在未明远程命令执行漏洞（CNVD-2013-14137）",
+		"publish_time": "2013-10-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-707244"
+	},
+	{
+		"avd_id": "AVD-2021-707232",
+		"name": "Symantec Workspace Streaming SWS Streamlet引擎服务Marshalled对象远程命令执行漏洞（CNVD-2013-14119）",
+		"publish_time": "2013-10-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-707232"
+	},
+	{
+		"cve_id": "CVE-2013-4319",
+		"avd_id": "AVD-2013-4319",
+		"name": "TORQUE pbs_mom后台程序任意作业提交远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2013-10-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-4319"
+	},
+	{
+		"cve_id": "CVE-2013-4316",
+		"avd_id": "AVD-2013-4316",
+		"name": "Apache Struts2 2.0.0～2.3.15.1 远程命令执行漏洞S2-019（CVE-2013-4316）",
+		"publish_time": "2013-10-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-4316"
+	},
+	{
+		"cve_id": "CVE-2012-4086",
+		"avd_id": "AVD-2012-4086",
+		"name": "Cisco Unified Computing System远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-77",
+			"value": "在命令中使用的特殊元素转义处理不恰当（命令注入）"
+		},
+		"publish_time": "2013-09-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-4086"
+	},
+	{
+		"avd_id": "AVD-2021-707473",
+		"name": "AjaXplorer 'checkInstall.php'远程命令执行漏洞（CNVD-2013-13290）",
+		"publish_time": "2013-09-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-707473"
+	},
+	{
+		"cve_id": "CVE-2012-4087",
+		"avd_id": "AVD-2012-4087",
+		"name": "Cisco Unified Computing System远程命令执行漏洞（CNVD-2013-13314）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2013-09-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-4087"
+	},
+	{
+		"cve_id": "CVE-2013-5486",
+		"avd_id": "AVD-2013-5486",
+		"name": "Cisco Prime Data Center Network Manager存在多个远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2013-09-23",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-5486"
+	},
+	{
+		"cve_id": "CVE-2013-3466",
+		"avd_id": "AVD-2013-3466",
+		"name": "Cisco Secure Access Control Server远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-287",
+			"value": "认证机制不恰当"
+		},
+		"publish_time": "2013-08-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-3466"
+	},
+	{
+		"cve_id": "CVE-2013-2251",
+		"avd_id": "AVD-2013-2251",
+		"name": "Apache Struts2 2.0.0～2.3.15 远程命令执行漏洞S2-016（CVE-2013-2251）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2013-07-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-2251",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2013-1966",
+		"avd_id": "AVD-2013-1966",
+		"name": "Apache Struts2 2.0.0～2.3.14.1 远程命令执行漏洞S2-013（CVE-2013-1966）",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2013-07-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-1966",
+		"status": "漏洞利用攻击武器化"
+	},
+	{
+		"cve_id": "CVE-2013-1965",
+		"avd_id": "AVD-2013-1965",
+		"name": "Apache Struts2 2.0.0～2.3.14.2 远程命令执行漏洞S2-012（CVE-2013-1965）",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2013-07-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-1965",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2013-0143",
+		"avd_id": "AVD-2013-0143",
+		"name": "QNAP VioStor NVR/QNAP NAS远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2013-06-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-0143"
+	},
+	{
+		"cve_id": "CVE-2013-3063",
+		"avd_id": "AVD-2013-3063",
+		"name": "SAP BASIS Communication Services远程命令执行漏洞",
+		"publish_time": "2013-05-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-3063"
+	},
+	{
+		"cve_id": "CVE-2013-1933",
+		"avd_id": "AVD-2013-1933",
+		"name": "RubyGems karteek-docsplit 'text_extractor.rb'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2013-04-26",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-1933"
+	},
+	{
+		"cve_id": "CVE-2013-1192",
+		"avd_id": "AVD-2013-1192",
+		"name": "Cisco Device Manager存在多个远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2013-04-25",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-1192"
+	},
+	{
+		"cve_id": "CVE-2012-5937",
+		"avd_id": "AVD-2012-5937",
+		"name": "IBM Sterling B2B Integrator远程命令执行漏洞",
+		"publish_time": "2013-04-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-5937"
+	},
+	{
+		"cve_id": "CVE-2013-1898",
+		"avd_id": "AVD-2013-1898",
+		"name": "RubyGems 'thumbshooter'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2013-04-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-1898"
+	},
+	{
+		"cve_id": "CVE-2013-1911",
+		"avd_id": "AVD-2013-1911",
+		"name": "RubyGems 'ldoce'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2013-04-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2013-1911"
+	},
+	{
+		"cve_id": "CVE-2012-6392",
+		"avd_id": "AVD-2012-6392",
+		"name": "Cisco Prime LAN Management Solution Virtual Appliance远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2013-01-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-6392"
+	},
+	{
+		"cve_id": "CVE-2012-5417",
+		"avd_id": "AVD-2012-5417",
+		"name": "Cisco Prime数据中心网络管理器远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2012-11-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-5417"
+	},
+	{
+		"cve_id": "CVE-2012-5347",
+		"avd_id": "AVD-2012-5347",
+		"name": "TinyWebGallery 1.8.3 - 远程命令执行漏洞",
+		"publish_time": "2012-10-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-5347"
+	},
+	{
+		"cve_id": "CVE-2012-4245",
+		"avd_id": "AVD-2012-4245",
+		"name": "GIMP远程命令执行漏洞（CNVD-2012-4333）",
+		"type": {
+			"cwe_id": "CWE-287",
+			"value": "认证机制不恰当"
+		},
+		"publish_time": "2012-09-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-4245"
+	},
+	{
+		"cve_id": "CVE-2012-2163",
+		"avd_id": "AVD-2012-2163",
+		"name": "IBM Scale Out Network Attached Storage远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2012-07-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-2163"
+	},
+	{
+		"cve_id": "CVE-2012-2607",
+		"avd_id": "AVD-2012-2607",
+		"name": "Johnson Controls多个产品远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2012-07-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-2607"
+	},
+	{
+		"cve_id": "CVE-2012-3399",
+		"avd_id": "AVD-2012-3399",
+		"name": "Basilic 'diff.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2012-07-13",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-3399"
+	},
+	{
+		"cve_id": "CVE-2012-1300",
+		"avd_id": "AVD-2012-1300",
+		"name": "phpFox ‘ajax.php’ 远程命令执行漏洞",
+		"publish_time": "2012-03-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-1300"
+	},
+	{
+		"cve_id": "CVE-2012-0838",
+		"avd_id": "AVD-2012-0838",
+		"name": "Apache Struts2 2.0.0～2.2.3 远程命令执行漏洞S2-007（CVE-2012-0838）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2012-03-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-0838"
+	},
+	{
+		"cve_id": "CVE-2011-3923",
+		"avd_id": "AVD-2011-3923",
+		"name": "Apache Struts2 2.0.0～2.3.1.1 远程命令执行漏洞（S2-009）",
+		"type": {
+			"cwe_id": "CWE-732",
+			"value": "关键资源的不正确权限授予"
+		},
+		"publish_time": "2012-01-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2011-3923",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2012-0391",
+		"avd_id": "AVD-2012-0391",
+		"name": "Apache Struts2 2.0.0～2.3.17 远程命令执行漏洞S2-008（CVE-2012-0391）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2012-01-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2012-0391",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2011-4642",
+		"avd_id": "AVD-2011-4642",
+		"name": "Splunk - 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-352",
+			"value": "跨站请求伪造（CSRF）"
+		},
+		"publish_time": "2012-01-04",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2011-4642"
+	},
+	{
+		"cve_id": "CVE-2011-2397",
+		"avd_id": "AVD-2011-2397",
+		"name": "Iron Mountain Connected Backup远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2011-12-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2011-2397"
+	},
+	{
+		"cve_id": "CVE-2011-1513",
+		"avd_id": "AVD-2011-1513",
+		"name": "e107 'cmd'参数远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2011-11-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2011-1513"
+	},
+	{
+		"avd_id": "AVD-2021-729902",
+		"name": "TYPO3 pdf_generator2扩展远程命令执行漏洞（CNVD-2011-4416）",
+		"publish_time": "2011-10-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-729902"
+	},
+	{
+		"avd_id": "AVD-2021-730002",
+		"name": "Snortreport nmap.php和nbtscan.php远程命令执行漏洞（CNVD-2011-4187）",
+		"publish_time": "2011-10-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-730002"
+	},
+	{
+		"avd_id": "AVD-2021-730023",
+		"name": "Snort Report存在多个远程命令执行漏洞（CNVD-2011-4085）",
+		"publish_time": "2011-10-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-730023"
+	},
+	{
+		"cve_id": "CVE-2011-3587",
+		"avd_id": "AVD-2011-3587",
+		"name": "Plone远程命令执行漏洞",
+		"publish_time": "2011-10-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2011-3587"
+	},
+	{
+		"avd_id": "AVD-2021-730046",
+		"name": "spree未明远程命令执行漏洞（CNVD-2011-4045）",
+		"publish_time": "2011-10-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-730046"
+	},
+	{
+		"cve_id": "CVE-2011-3490",
+		"avd_id": "AVD-2011-3490",
+		"name": "Measuresoft ScadaPro 4.0.0 - 远程命令执行漏洞(Metasploit)",
+		"type": {
+			"cwe_id": "CWE-119",
+			"value": "内存缓冲区边界内操作的限制不恰当"
+		},
+		"publish_time": "2011-09-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2011-3490"
+	},
+	{
+		"cve_id": "CVE-2011-0751",
+		"avd_id": "AVD-2011-0751",
+		"name": "nostromo nhttpd远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-22",
+			"value": "对路径名的限制不恰当（路径遍历）"
+		},
+		"publish_time": "2011-03-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2011-0751"
+	},
+	{
+		"avd_id": "AVD-2021-733259",
+		"name": "Xerox WorkCentre Webserver未明远程命令执行漏洞（CNVD-2011-0445）",
+		"publish_time": "2011-02-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-733259"
+	},
+	{
+		"avd_id": "AVD-2021-733347",
+		"name": "Objectivity/DB管理数据库工具远程命令执行漏洞（CNVD-2011-0184）",
+		"publish_time": "2011-01-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-733347"
+	},
+	{
+		"cve_id": "CVE-2010-4221",
+		"avd_id": "AVD-2010-4221",
+		"name": "ProFTPd IAC 1.3.x -远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-119",
+			"value": "内存缓冲区边界内操作的限制不恰当"
+		},
+		"publish_time": "2010-11-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2010-4221"
+	},
+	{
+		"cve_id": "CVE-2010-1870",
+		"avd_id": "AVD-2010-1870",
+		"name": "Apache Struts2 2.0.0～2.1.8.1 远程命令执行漏洞  S2-005",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2010-08-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2010-1870",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2009-4874",
+		"avd_id": "AVD-2009-4874",
+		"name": "Scripts.Oldguy TalkBack Security Bypass and Remote 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2010-05-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2009-4874"
+	},
+	{
+		"cve_id": "CVE-2010-0073",
+		"avd_id": "AVD-2010-0073",
+		"name": "Oracle WebLogic Server beasvc.exe服务远程命令执行漏洞",
+		"publish_time": "2010-04-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2010-0073"
+	},
+	{
+		"cve_id": "CVE-2010-1132",
+		"avd_id": "AVD-2010-1132",
+		"name": "Apache SpamAssassin Milter Plugin 0.3.1 - 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-78",
+			"value": "OS命令中使用的特殊元素转义处理不恰当（OS命令注入）"
+		},
+		"publish_time": "2010-03-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2010-1132",
+		"status": "POC 已公开"
+	},
+	{
+		"cve_id": "CVE-2009-4106",
+		"avd_id": "AVD-2009-4106",
+		"name": "Agoko CMS 0.4 - 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2009-11-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2009-4106"
+	},
+	{
+		"cve_id": "CVE-2008-6826",
+		"avd_id": "AVD-2008-6826",
+		"name": "Ads Pro - 'dhtml.pl' 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2009-06-09",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-6826"
+	},
+	{
+		"cve_id": "CVE-2009-1786",
+		"avd_id": "AVD-2009-1786",
+		"name": "Kingsoft Webshield 1.1.0.62 - 跨站点脚本/远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-362",
+			"value": "使用共享资源的并发执行不恰当同步问题（竞争条件）"
+		},
+		"publish_time": "2009-05-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2009-1786"
+	},
+	{
+		"cve_id": "CVE-2008-6643",
+		"avd_id": "AVD-2008-6643",
+		"name": "LokiCMS 0.3.4 - 'writeconfig()' 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-264",
+			"value": "权限、特权和访问控制"
+		},
+		"publish_time": "2009-04-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-6643"
+	},
+	{
+		"cve_id": "CVE-2008-6555",
+		"avd_id": "AVD-2008-6555",
+		"name": "Webutil 2.3/2.7 - 'webutil.pl' 多个远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2009-03-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-6555"
+	},
+	{
+		"cve_id": "CVE-2008-6504",
+		"avd_id": "AVD-2008-6504",
+		"name": "Apache Struts2 2.0.0～2.1.8.1 远程命令执行漏洞S2-003（CVE-2008-6504）",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2009-03-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-6504",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2008-6490",
+		"avd_id": "AVD-2008-6490",
+		"name": "FLABER 1.1 RC1 -远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2009-03-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-6490"
+	},
+	{
+		"cve_id": "CVE-2008-6446",
+		"avd_id": "AVD-2008-6446",
+		"name": "CMS MAXSITE Component Guestbook -远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2009-03-10",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-6446"
+	},
+	{
+		"cve_id": "CVE-2008-5517",
+		"avd_id": "AVD-2008-5517",
+		"name": "gitWeb 1.5.2 - 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2009-01-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-5517"
+	},
+	{
+		"cve_id": "CVE-2006-7236",
+		"avd_id": "AVD-2006-7236",
+		"name": "xterm - DECRQSS 远程命令执行漏洞",
+		"publish_time": "2009-01-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-7236"
+	},
+	{
+		"cve_id": "CVE-2008-5071",
+		"avd_id": "AVD-2008-5071",
+		"name": "Yoxel 1.23beta - 'itpm_estimate.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2008-11-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-5071"
+	},
+	{
+		"cve_id": "CVE-2008-4096",
+		"avd_id": "AVD-2008-4096",
+		"name": "phpMyAdmin 3.2-'server_databases.php'远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2008-09-19",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-4096",
+		"status": "EXP 已公开"
+	},
+	{
+		"cve_id": "CVE-2008-1856",
+		"avd_id": "AVD-2008-1856",
+		"name": "LinPHA 1.3.3 Plugin Maps -远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2008-04-17",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2008-1856"
+	},
+	{
+		"cve_id": "CVE-2007-4556",
+		"avd_id": "AVD-2007-4556",
+		"name": "Apache Struts2 \u003c= 2.0.9 远程命令执行漏洞 S2-001",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2007-08-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2007-4556"
+	},
+	{
+		"cve_id": "CVE-2007-3587",
+		"avd_id": "AVD-2007-3587",
+		"name": "MyCMS 0.9.8 - 远程命令执行漏洞",
+		"publish_time": "2007-07-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2007-3587"
+	},
+	{
+		"cve_id": "CVE-2007-3585",
+		"avd_id": "AVD-2007-3585",
+		"name": "MyCMS 0.9.8 - 远程命令执行漏洞",
+		"publish_time": "2007-07-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2007-3585"
+	},
+	{
+		"cve_id": "CVE-2007-2769",
+		"avd_id": "AVD-2007-2769",
+		"name": "OPeNDAP BES压缩文件远程命令执行漏洞",
+		"publish_time": "2007-05-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2007-2769"
+	},
+	{
+		"cve_id": "CVE-2006-7079",
+		"avd_id": "AVD-2006-7079",
+		"name": "exV2 \u003c 2.0.4.3 - extract() 远程命令执行漏洞",
+		"publish_time": "2007-03-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-7079"
+	},
+	{
+		"cve_id": "CVE-2006-7070",
+		"avd_id": "AVD-2006-7070",
+		"name": "Etomite CMS 0.6.1 - 'rfiles.php' 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2007-03-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-7070"
+	},
+	{
+		"cve_id": "CVE-2007-0675",
+		"avd_id": "AVD-2007-0675",
+		"name": "Microsoft Windows Speech组件语音识别远程命令执行漏洞(MS08-032)",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2007-02-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2007-0675"
+	},
+	{
+		"cve_id": "CVE-2007-0565",
+		"avd_id": "AVD-2007-0565",
+		"name": "CGI-Rescue Shopping Basket专业版未明远程命令执行漏洞",
+		"publish_time": "2007-01-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2007-0565"
+	},
+	{
+		"cve_id": "CVE-2006-6690",
+		"avd_id": "AVD-2006-6690",
+		"name": "Typo3 3.7 / 3.8 / 4.0-Class.TX_RTEHTMLArea_PI1.php多个远程命令执行漏洞",
+		"publish_time": "2006-12-22",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-6690"
+	},
+	{
+		"cve_id": "CVE-2006-6597",
+		"avd_id": "AVD-2006-6597",
+		"name": "Hilgraeve HyperAccess 8.4-多个远程命令执行漏洞",
+		"publish_time": "2006-12-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-6597"
+	},
+	{
+		"cve_id": "CVE-2006-4418",
+		"avd_id": "AVD-2006-4418",
+		"name": "Wikepage Opus 10 \u003c2006.2a（lng）-远程命令执行漏洞",
+		"publish_time": "2006-08-29",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-4418"
+	},
+	{
+		"cve_id": "CVE-2006-1371",
+		"avd_id": "AVD-2006-1371",
+		"name": "XHP CMS 0.5 - (upload) 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-94",
+			"value": "对生成代码的控制不恰当（代码注入）"
+		},
+		"publish_time": "2006-03-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-1371"
+	},
+	{
+		"cve_id": "CVE-2006-1243",
+		"avd_id": "AVD-2006-1243",
+		"name": "Simple PHP Blog 0.4.7.1 - 远程命令执行漏洞",
+		"publish_time": "2006-03-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-1243"
+	},
+	{
+		"cve_id": "CVE-2006-0786",
+		"avd_id": "AVD-2006-0786",
+		"name": "PHPKIT 1.6.1R2 - (filecheck)远程命令执行漏洞",
+		"publish_time": "2006-02-20",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-0786"
+	},
+	{
+		"cve_id": "CVE-2006-0714",
+		"avd_id": "AVD-2006-0714",
+		"name": "FlySpray 0.9.7 - 'install-0.9.7.php' 远程命令执行漏洞",
+		"publish_time": "2006-02-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-0714"
+	},
+	{
+		"cve_id": "CVE-2006-0687",
+		"avd_id": "AVD-2006-0687",
+		"name": "DocMGR 0.54.2 - (file_exists) 远程命令执行漏洞",
+		"publish_time": "2006-02-15",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-0687"
+	},
+	{
+		"cve_id": "CVE-2006-0214",
+		"avd_id": "AVD-2006-0214",
+		"name": "EZDatabase 2.0 - (db_id) 远程命令执行漏洞",
+		"publish_time": "2006-01-16",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-0214"
+	},
+	{
+		"cve_id": "CVE-2006-0099",
+		"avd_id": "AVD-2006-0099",
+		"name": "Valdersoft Shopping Cart 3.0 - 远程命令执行漏洞",
+		"publish_time": "2006-01-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2006-0099"
+	},
+	{
+		"cve_id": "CVE-2005-4593",
+		"avd_id": "AVD-2005-4593",
+		"name": "phpDocumentor 1.3.0 rc4-远程命令执行漏洞",
+		"publish_time": "2005-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-4593"
+	},
+	{
+		"cve_id": "CVE-2005-3539",
+		"avd_id": "AVD-2005-3539",
+		"name": "Hylafax 4.1/4.2 - Multiple Scripts 远程命令执行漏洞",
+		"publish_time": "2005-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-3539"
+	},
+	{
+		"cve_id": "CVE-2005-4208",
+		"avd_id": "AVD-2005-4208",
+		"name": "Flatnuke 2.5.6 - 权限提升或者远程命令执行漏洞",
+		"publish_time": "2005-12-14",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-4208"
+	},
+	{
+		"cve_id": "CVE-2005-4152",
+		"avd_id": "AVD-2005-4152",
+		"name": "Soti Pocket Controller-Professional远程命令执行漏洞",
+		"publish_time": "2005-12-11",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-4152"
+	},
+	{
+		"cve_id": "CVE-2005-3081",
+		"avd_id": "AVD-2005-3081",
+		"name": "WzdFTPD 0.5.4 - (SITE) 远程命令执行漏洞 (Metasploit)",
+		"publish_time": "2005-09-28",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-3081"
+	},
+	{
+		"cve_id": "CVE-2005-2812",
+		"avd_id": "AVD-2005-2812",
+		"name": "man2web 0.88 - 多个远程命令执行漏洞(update2)",
+		"publish_time": "2005-09-08",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-2812"
+	},
+	{
+		"cve_id": "CVE-2005-2777",
+		"avd_id": "AVD-2005-2777",
+		"name": "Looking Glass 20040427 - 远程命令执行漏洞",
+		"publish_time": "2005-09-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-2777"
+	},
+	{
+		"cve_id": "CVE-2005-2733",
+		"avd_id": "AVD-2005-2733",
+		"name": "Simple PHP Blog 0.4.0 - 远程命令执行漏洞",
+		"publish_time": "2005-08-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-2733"
+	},
+	{
+		"cve_id": "CVE-2005-2420",
+		"avd_id": "AVD-2005-2420",
+		"name": "FtpLocate 2.02 - (current) 远程命令执行漏洞",
+		"publish_time": "2005-08-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-2420"
+	},
+	{
+		"cve_id": "CVE-2005-1289",
+		"avd_id": "AVD-2005-1289",
+		"name": "E-Cart 1.1 - 'index.cgi' 远程命令执行漏洞",
+		"publish_time": "2005-05-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-1289"
+	},
+	{
+		"cve_id": "CVE-2005-0689",
+		"avd_id": "AVD-2005-0689",
+		"name": "The Includer CGI 1.0 - 远程命令执行漏洞 (3)",
+		"publish_time": "2005-03-07",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-0689"
+	},
+	{
+		"cve_id": "CVE-2004-1037",
+		"avd_id": "AVD-2004-1037",
+		"name": "TWiki 20030201 - search.pm远程命令执行漏洞",
+		"publish_time": "2005-03-01",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-1037"
+	},
+	{
+		"cve_id": "CVE-2005-0116",
+		"avd_id": "AVD-2005-0116",
+		"name": "AWStats 6.0 \u003c 6.2 - configdir 远程命令执行漏洞 (Perl)",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2005-01-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2005-0116"
+	},
+	{
+		"cve_id": "CVE-2004-2759",
+		"avd_id": "AVD-2004-2759",
+		"name": "Cisco Small Business RV 系列路由器远程命令执行漏洞(CVE-2004-2759)",
+		"publish_time": "2004-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-2759"
+	},
+	{
+		"cve_id": "CVE-2004-2347",
+		"avd_id": "AVD-2004-2347",
+		"name": "Leif M. Wright Web Blog 1.1 - 远程命令执行漏洞",
+		"publish_time": "2004-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-2347"
+	},
+	{
+		"cve_id": "CVE-2004-2275",
+		"avd_id": "AVD-2004-2275",
+		"name": "I-Mall Commerce - 'i-mall.cgi'远程命令执行漏洞",
+		"publish_time": "2004-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-2275"
+	},
+	{
+		"cve_id": "CVE-2004-1491",
+		"avd_id": "AVD-2004-1491",
+		"name": "Opera Web Browser 7.54 - KDE KFMCLIENT 远程命令执行漏洞",
+		"publish_time": "2004-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-1491"
+	},
+	{
+		"cve_id": "CVE-2004-1389",
+		"avd_id": "AVD-2004-1389",
+		"name": "Veritas NetBackup - 远程命令执行漏洞 (Metasploit)",
+		"publish_time": "2004-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-1389"
+	},
+	{
+		"cve_id": "CVE-2004-0613",
+		"avd_id": "AVD-2004-0613",
+		"name": "osTicket STS 1.2 - Attachment 远程命令执行漏洞",
+		"publish_time": "2004-12-06",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-0613"
+	},
+	{
+		"cve_id": "CVE-2004-1315",
+		"avd_id": "AVD-2004-1315",
+		"name": "phpBB 2.0.10 - 远程命令执行漏洞",
+		"publish_time": "2004-11-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2004-1315"
+	},
+	{
+		"cve_id": "CVE-2003-1456",
+		"avd_id": "AVD-2003-1456",
+		"name": "Mike Bobbitt Album.PL 0.61 - 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2003-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-1456"
+	},
+	{
+		"cve_id": "CVE-2003-1425",
+		"avd_id": "AVD-2003-1425",
+		"name": "cPanel 5.0 - Guestbook.cgi 远程命令执行漏洞 (4)",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2003-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-1425"
+	},
+	{
+		"cve_id": "CVE-2003-1405",
+		"avd_id": "AVD-2003-1405",
+		"name": "DotBr 0.1 - Exec.php3 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2003-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-1405"
+	},
+	{
+		"cve_id": "CVE-2003-1252",
+		"avd_id": "AVD-2003-1252",
+		"name": "S8Forum 3.0 - 远程命令执行漏洞",
+		"publish_time": "2003-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-1252"
+	},
+	{
+		"cve_id": "CVE-2003-1247",
+		"avd_id": "AVD-2003-1247",
+		"name": "H-Sphere Webshell 2.4 - 远程命令执行漏洞",
+		"publish_time": "2003-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-1247"
+	},
+	{
+		"cve_id": "CVE-2003-0466",
+		"avd_id": "AVD-2003-0466",
+		"name": "WU-FTPD 2.6.2 - 远程命令执行漏洞",
+		"publish_time": "2003-08-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-0466"
+	},
+	{
+		"cve_id": "CVE-2003-0437",
+		"avd_id": "AVD-2003-0437",
+		"name": "mnoGoSearch 3.1.20 - 远程命令执行漏洞",
+		"publish_time": "2003-07-24",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-0437"
+	},
+	{
+		"cve_id": "CVE-2003-0380",
+		"avd_id": "AVD-2003-0380",
+		"name": "Atftpd 0.6 - 'atftpdx.c'远程命令执行漏洞",
+		"publish_time": "2003-07-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-0380"
+	},
+	{
+		"cve_id": "CVE-2003-0338",
+		"avd_id": "AVD-2003-0338",
+		"name": "WSMP3 0.0.x - 远程命令执行漏洞",
+		"publish_time": "2003-05-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-0338"
+	},
+	{
+		"cve_id": "CVE-2003-0213",
+		"avd_id": "AVD-2003-0213",
+		"name": "PoPToP PPTP 1.1.4-b3 - 'poptop-sane.c'远程命令执行漏洞",
+		"publish_time": "2003-05-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-0213"
+	},
+	{
+		"cve_id": "CVE-2003-0209",
+		"avd_id": "AVD-2003-0209",
+		"name": "Snort 1.9.1 - 'p7snort191.sh' 远程命令执行漏洞",
+		"publish_time": "2003-05-05",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-0209"
+	},
+	{
+		"cve_id": "CVE-2003-0161",
+		"avd_id": "AVD-2003-0161",
+		"name": "Sendmail 8.12.8 - Prescan() BSD 远程命令执行漏洞",
+		"publish_time": "2003-04-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2003-0161"
+	},
+	{
+		"cve_id": "CVE-2002-2420",
+		"avd_id": "AVD-2002-2420",
+		"name": "Super Site Searcher - 远程命令执行漏洞",
+		"type": {
+			"cwe_id": "CWE-20",
+			"value": "输入验证不恰当"
+		},
+		"publish_time": "2002-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-2420"
+	},
+	{
+		"cve_id": "CVE-2002-1993",
+		"avd_id": "AVD-2002-1993",
+		"name": "WebScripts WebBBS 4.x/5.0 - 远程命令执行漏洞",
+		"publish_time": "2002-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-1993"
+	},
+	{
+		"cve_id": "CVE-2002-1868",
+		"avd_id": "AVD-2002-1868",
+		"name": "Dispair 0.1/0.2 - 远程命令执行漏洞",
+		"publish_time": "2002-12-31",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-1868"
+	},
+	{
+		"cve_id": "CVE-2002-1275",
+		"avd_id": "AVD-2002-1275",
+		"name": "LPRNG html2ps 1.0 - 远程命令执行漏洞",
+		"publish_time": "2002-11-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-1275"
+	},
+	{
+		"avd_id": "AVD-2021-915366",
+		"name": "Perlbot远程命令执行漏洞（CNVD-2002-3879）",
+		"publish_time": "2002-10-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-915366"
+	},
+	{
+		"cve_id": "CVE-2002-0764",
+		"avd_id": "AVD-2002-0764",
+		"name": "Phorum 3.3.2a - 远程命令执行漏洞",
+		"publish_time": "2002-08-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0764"
+	},
+	{
+		"cve_id": "CVE-2002-0749",
+		"avd_id": "AVD-2002-0749",
+		"name": "CGIScript.net - csMailto Hidden Form Field 远程命令执行漏洞",
+		"publish_time": "2002-08-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0749"
+	},
+	{
+		"cve_id": "CVE-2002-0516",
+		"avd_id": "AVD-2002-0516",
+		"name": "SquirrelMail 1.2.x - Theme远程命令执行漏洞",
+		"publish_time": "2002-08-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0516"
+	},
+	{
+		"cve_id": "CVE-2002-0495",
+		"avd_id": "AVD-2002-0495",
+		"name": "CSSearch 2.3 - 远程命令执行漏洞",
+		"publish_time": "2002-08-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0495"
+	},
+	{
+		"cve_id": "CVE-2002-0652",
+		"avd_id": "AVD-2002-0652",
+		"name": "SGI IRIX 6.x - rpc.xfsmd 远程命令执行漏洞",
+		"publish_time": "2002-07-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0652"
+	},
+	{
+		"cve_id": "CVE-2002-0359",
+		"avd_id": "AVD-2002-0359",
+		"name": "SGI IRIX rpc.xfsmd远程命令执行漏洞",
+		"publish_time": "2002-07-03",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0359"
+	},
+	{
+		"cve_id": "CVE-2002-0612",
+		"avd_id": "AVD-2002-0612",
+		"name": "FileSeek CGI Script - 远程命令执行漏洞",
+		"publish_time": "2002-06-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0612"
+	},
+	{
+		"cve_id": "CVE-2002-0061",
+		"avd_id": "AVD-2002-0061",
+		"name": "Apache Win32 1.3.x/2.0.x - Batch File 远程命令执行漏洞",
+		"publish_time": "2002-03-21",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2002-0061"
+	},
+	{
+		"cve_id": "CVE-2001-0550",
+		"avd_id": "AVD-2001-0550",
+		"name": "WU-FTPD 2.6.1 - 远程命令执行漏洞",
+		"publish_time": "2001-11-30",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2001-0550"
+	},
+	{
+		"cve_id": "CVE-2001-0437",
+		"avd_id": "AVD-2001-0437",
+		"name": "DCForum 'AZ'字段远程命令执行漏洞",
+		"publish_time": "2001-07-02",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2001-0437"
+	},
+	{
+		"cve_id": "CVE-2001-0477",
+		"avd_id": "AVD-2001-0477",
+		"name": "WebCalendar远程命令执行漏洞",
+		"publish_time": "2001-06-27",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2001-0477"
+	},
+	{
+		"cve_id": "CVE-2001-1160",
+		"avd_id": "AVD-2001-1160",
+		"name": "Microburst uDirectory 2.0 - 远程命令执行漏洞",
+		"publish_time": "2001-06-18",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2001-1160"
+	},
+	{
+		"cve_id": "CVE-2001-0144",
+		"avd_id": "AVD-2001-0144",
+		"name": "SSH (x2) - 远程命令执行漏洞",
+		"publish_time": "2001-03-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2001-0144"
+	},
+	{
+		"cve_id": "CVE-2001-0100",
+		"avd_id": "AVD-2001-0100",
+		"name": "Brian Stanback bslist.cgi 1.0 - 远程命令执行漏洞",
+		"publish_time": "2001-02-12",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2001-0100"
+	},
+	{
+		"avd_id": "AVD-2021-775942",
+		"name": "Microsoft Windows NT IIS MDAC RDS远程命令执行漏洞（MS99-025）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-775942"
+	},
+	{
+		"avd_id": "AVD-2021-775006",
+		"name": "Solaris AnswerBook2远程命令执行漏洞（CNVD-2000-0832）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-775006"
+	},
+	{
+		"avd_id": "AVD-2021-774945",
+		"name": "Aptis Software Totalbill 远程命令执行漏洞（CNVD-2000-0893）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-774945"
+	},
+	{
+		"avd_id": "AVD-2021-774687",
+		"name": "Talentsoft Web+例子脚本远程命令执行漏洞（CNVD-2000-1157）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-774687"
+	},
+	{
+		"avd_id": "AVD-2021-774681",
+		"name": "Talentsoft Web+例子脚本远程命令执行漏洞（CNVD-2013-15226）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-774681"
+	},
+	{
+		"avd_id": "AVD-2021-773856",
+		"name": "MnSCU/PALS WebPALS远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-773856"
+	},
+	{
+		"avd_id": "AVD-2021-773800",
+		"name": "Bajie Webserver远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-773800"
+	},
+	{
+		"avd_id": "AVD-2021-773221",
+		"name": "OpenView NNM OVActionD远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-773221"
+	},
+	{
+		"avd_id": "AVD-2021-772257",
+		"name": "Michael Barretto CardBoard 远程命令执行漏洞（CNVD-2001-2608）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-772257"
+	},
+	{
+		"avd_id": "AVD-2021-772106",
+		"name": "Mountain Network Systems WebCart 远程命令执行漏洞（CNVD-2001-2819）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-772106"
+	},
+	{
+		"avd_id": "AVD-2021-772105",
+		"name": "Mountain Network Systems WebCart远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-772105"
+	},
+	{
+		"avd_id": "AVD-2021-771500",
+		"name": "SGI IRIX lpsched远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-771500"
+	},
+	{
+		"avd_id": "AVD-2021-771473",
+		"name": "Avenger's News System远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-771473"
+	},
+	{
+		"avd_id": "AVD-2021-771237",
+		"name": "PHPNetToolpack远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-771237"
+	},
+	{
+		"avd_id": "AVD-2021-771214",
+		"name": "Linux Directory Penguin Traceroute远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-771214"
+	},
+	{
+		"avd_id": "AVD-2021-771191",
+		"name": "Linux Directory Penguin nslookup远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-771191"
+	},
+	{
+		"avd_id": "AVD-2021-771160",
+		"name": "CSSearch远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-771160"
+	},
+	{
+		"avd_id": "AVD-2021-770819",
+		"name": "B2 B2config.php远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-770819"
+	},
+	{
+		"avd_id": "AVD-2021-770723",
+		"name": "Phorum远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-770723"
+	},
+	{
+		"avd_id": "AVD-2021-769054",
+		"name": "Kismet ESSID远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-769054"
+	},
+	{
+		"avd_id": "AVD-2021-768959",
+		"name": "PHPEventCalendar远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768959"
+	},
+	{
+		"avd_id": "AVD-2021-768932",
+		"name": "WebScripts WebBBS远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768932"
+	},
+	{
+		"avd_id": "AVD-2021-768914",
+		"name": "SGI IRIX rpc.xfsmd远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768914"
+	},
+	{
+		"avd_id": "AVD-2021-768818",
+		"name": "Pacific Software Carello Shopping Cart Carello.DLL远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768818"
+	},
+	{
+		"avd_id": "AVD-2021-768468",
+		"name": "MailReader.com远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768468"
+	},
+	{
+		"avd_id": "AVD-2021-768280",
+		"name": "FreeNews包含未定义变量远程命令执行漏洞（CNVD-2002-4132）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768280"
+	},
+	{
+		"avd_id": "AVD-2021-768277",
+		"name": "FreeNews包含未定义变量远程命令执行漏洞（CNVD-2002-4135）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768277"
+	},
+	{
+		"avd_id": "AVD-2021-768211",
+		"name": "Cobalt RaQ4管理接口远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-768211"
+	},
+	{
+		"avd_id": "AVD-2021-767981",
+		"name": "Smart Search远程命令执行漏洞（CNVD-2003-0040）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767981"
+	},
+	{
+		"avd_id": "AVD-2021-767980",
+		"name": "Smart Search远程命令执行漏洞（CNVD-2003-0039）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767980"
+	},
+	{
+		"avd_id": "AVD-2021-767966",
+		"name": "H-Sphere WebShell远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767966"
+	},
+	{
+		"avd_id": "AVD-2021-767953",
+		"name": "H-Sphere WebShell远程命令执行漏洞（CNVD-2003-0067）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767953"
+	},
+	{
+		"avd_id": "AVD-2021-767882",
+		"name": "BitMover BitKeeper守护进程模式远程命令执行漏洞（CNVD-2003-0144）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767882"
+	},
+	{
+		"avd_id": "AVD-2021-767879",
+		"name": "BitMover BitKeeper守护进程模式远程命令执行漏洞（CNVD-2003-0147）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767879"
+	},
+	{
+		"avd_id": "AVD-2021-767871",
+		"name": "Psunami Bulletin Board psunami.cgi远程命令执行漏洞（CNVD-2003-0155）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767871"
+	},
+	{
+		"avd_id": "AVD-2021-767865",
+		"name": "Psunami Bulletin Board psunami.cgi远程命令执行漏洞（CNVD-2013-15458）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767865"
+	},
+	{
+		"avd_id": "AVD-2021-767641",
+		"name": "FileSeek CGI脚本远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767641"
+	},
+	{
+		"avd_id": "AVD-2021-767567",
+		"name": "DotBr system.php3远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767567"
+	},
+	{
+		"avd_id": "AVD-2021-767564",
+		"name": "DotBr exec.php3远程命令执行漏洞（CNVD-2003-0464）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767564"
+	},
+	{
+		"avd_id": "AVD-2021-767562",
+		"name": "DotBr system.php3远程命令执行漏洞（CNVD-2003-0459）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767562"
+	},
+	{
+		"avd_id": "AVD-2021-767515",
+		"name": "cPanel Guestbook.cgi远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767515"
+	},
+	{
+		"avd_id": "AVD-2021-767453",
+		"name": "Apple Quicktime/Darwin流服务器parse_xml.cgi远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767453"
+	},
+	{
+		"avd_id": "AVD-2021-767372",
+		"name": "PHP ping远程命令执行漏洞（CNVD-2003-0670）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767372"
+	},
+	{
+		"avd_id": "AVD-2021-767370",
+		"name": "PHP ping远程命令执行漏洞（CNVD-2003-0663）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767370"
+	},
+	{
+		"avd_id": "AVD-2021-767363",
+		"name": "Wordit Logbook logbook.pl远程命令执行漏洞（CNVD-2003-0675）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767363"
+	},
+	{
+		"avd_id": "AVD-2021-767357",
+		"name": "Wordit Logbook logbook.pl远程命令执行漏洞（CNVD-2003-0681）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767357"
+	},
+	{
+		"avd_id": "AVD-2021-767335",
+		"name": "PeopleSoft PeopleTools SchedulerTransfer远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767335"
+	},
+	{
+		"avd_id": "AVD-2021-767324",
+		"name": "VPOPMail vpopmail.php远程命令执行漏洞（CNVD-2003-0716）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767324"
+	},
+	{
+		"avd_id": "AVD-2021-767323",
+		"name": "VPOPMail vpopmail.php远程命令执行漏洞（CNVD-2003-0717）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767323"
+	},
+	{
+		"avd_id": "AVD-2021-767221",
+		"name": "Mozilla Bonsai远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767221"
+	},
+	{
+		"avd_id": "AVD-2021-767089",
+		"name": "Coppermine Photo Gallery远程命令执行漏洞（CNVD-2003-0993）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767089"
+	},
+	{
+		"avd_id": "AVD-2021-767086",
+		"name": "Coppermine Photo Gallery远程命令执行漏洞（CNVD-2003-0996）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-767086"
+	},
+	{
+		"avd_id": "AVD-2021-766987",
+		"name": "YABB SE语言设置远程命令执行漏洞（CNVD-2003-1137）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766987"
+	},
+	{
+		"avd_id": "AVD-2021-766968",
+		"name": "GKrellM Newsticker远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766968"
+	},
+	{
+		"avd_id": "AVD-2021-766928",
+		"name": "Apache Mod_Auth_Any远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766928"
+	},
+	{
+		"avd_id": "AVD-2021-766848",
+		"name": "HappyMall E-Commerce软件normal_html.cgi远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766848"
+	},
+	{
+		"avd_id": "AVD-2021-766830",
+		"name": "KDE Kopete GPG插件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766830"
+	},
+	{
+		"avd_id": "AVD-2021-766540",
+		"name": "Cafelog b2远程命令执行漏洞（CNVD-2003-1586）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766540"
+	},
+	{
+		"avd_id": "AVD-2021-766537",
+		"name": "Webfroot Shoutbox远程命令执行漏洞（CNVD-2003-1589）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766537"
+	},
+	{
+		"avd_id": "AVD-2021-766536",
+		"name": "Webfroot Shoutbox远程命令执行漏洞（CNVD-2003-1590）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766536"
+	},
+	{
+		"avd_id": "AVD-2021-766533",
+		"name": "Cafelog b2远程命令执行漏洞（CNVD-2003-1593）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766533"
+	},
+	{
+		"avd_id": "AVD-2021-766486",
+		"name": "CA Unicenter TNG file_upload.pl远程命令执行漏洞（CNVD-2003-1641）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766486"
+	},
+	{
+		"avd_id": "AVD-2021-766481",
+		"name": "CA Unicenter TNG file_upload.pl远程命令执行漏洞（CNVD-2003-1646）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766481"
+	},
+	{
+		"avd_id": "AVD-2021-766389",
+		"name": "Infinity CGI Exploit Scanner远程命令执行漏洞（CNVD-2003-1747）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766389"
+	},
+	{
+		"avd_id": "AVD-2021-766383",
+		"name": "Infinity CGI Exploit Scanner远程命令执行漏洞（CNVD-2003-1742）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766383"
+	},
+	{
+		"avd_id": "AVD-2021-766347",
+		"name": "Xoops/E-Xoops导游模块远程命令执行漏洞（CNVD-2003-1794）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766347"
+	},
+	{
+		"avd_id": "AVD-2021-766342",
+		"name": "Xoops/E-Xoops导游模块远程命令执行漏洞（CNVD-2003-1782）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-766342"
+	},
+	{
+		"avd_id": "AVD-2021-765726",
+		"name": "Webware WebKit Cookie字符串远程命令执行漏洞（CNVD-2003-2415）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-765726"
+	},
+	{
+		"avd_id": "AVD-2021-765717",
+		"name": "Webware WebKit Cookie字符串远程命令执行漏洞（CNVD-2003-2424）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-765717"
+	},
+	{
+		"avd_id": "AVD-2021-765647",
+		"name": "CiscoWorks 2000远程命令执行漏洞（CNVD-2003-2503）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-765647"
+	},
+	{
+		"avd_id": "AVD-2021-765577",
+		"name": "OMail Webmail远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-765577"
+	},
+	{
+		"avd_id": "AVD-2021-765115",
+		"name": "Cisco CatOS密码提示未授权远程命令执行漏洞（CNVD-2003-3046）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-765115"
+	},
+	{
+		"avd_id": "AVD-2021-765106",
+		"name": "Cisco CatOS密码提示未授权远程命令执行漏洞（CNVD-2003-3041）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-765106"
+	},
+	{
+		"avd_id": "AVD-2021-764904",
+		"name": "DBMail From头字段远程命令执行漏洞（CNVD-2003-3272）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764904"
+	},
+	{
+		"avd_id": "AVD-2021-764894",
+		"name": "DBMail From头字段远程命令执行漏洞（CNVD-2003-3258）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764894"
+	},
+	{
+		"avd_id": "AVD-2021-764852",
+		"name": "OnlineArts DailyDose dose.pl远程命令执行漏洞（CNVD-2003-3322）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764852"
+	},
+	{
+		"avd_id": "AVD-2021-764848",
+		"name": "OnlineArts DailyDose dose.pl远程命令执行漏洞（CNVD-2003-3327）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764848"
+	},
+	{
+		"avd_id": "AVD-2021-764545",
+		"name": "J2EE/RI Pointbase数据库远程命令执行漏洞（CNVD-2003-3639）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764545"
+	},
+	{
+		"avd_id": "AVD-2021-764490",
+		"name": "Squirrelmail G/PGP加密插件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764490"
+	},
+	{
+		"avd_id": "AVD-2021-764452",
+		"name": "Athena Web Registration远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764452"
+	},
+	{
+		"avd_id": "AVD-2021-764371",
+		"name": "VisualShapers EZContents module.php远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764371"
+	},
+	{
+		"avd_id": "AVD-2021-764258",
+		"name": "Antologic Antolinux管理接口NDCR参数远程命令执行漏洞（CNVD-2004-0211）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764258"
+	},
+	{
+		"avd_id": "AVD-2021-764254",
+		"name": "Antologic Antolinux管理接口NDCR参数远程命令执行漏洞（CNVD-2004-0215）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764254"
+	},
+	{
+		"avd_id": "AVD-2021-764198",
+		"name": "Qualiteam X-Cart远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764198"
+	},
+	{
+		"avd_id": "AVD-2021-764166",
+		"name": "IBM Cloudscape Database远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-764166"
+	},
+	{
+		"avd_id": "AVD-2021-763948",
+		"name": "Confirm E-Mail头远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763948"
+	},
+	{
+		"avd_id": "AVD-2021-763788",
+		"name": "Confixx Perl Debugger远程命令执行漏洞（CNVD-2004-0709）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763788"
+	},
+	{
+		"avd_id": "AVD-2021-763779",
+		"name": "Confixx Perl Debugger远程命令执行漏洞（CNVD-2004-0693）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763779"
+	},
+	{
+		"avd_id": "AVD-2021-763757",
+		"name": "cPanel Resetpass远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763757"
+	},
+	{
+		"avd_id": "AVD-2021-763750",
+		"name": "cPanel登录脚本远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763750"
+	},
+	{
+		"avd_id": "AVD-2021-763677",
+		"name": "Symantec Norton Internet Security WrapNISUM类远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763677"
+	},
+	{
+		"avd_id": "AVD-2021-763474",
+		"name": "Microsoft Windows Help和Support中心远程命令执行漏洞（MS04-011）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763474"
+	},
+	{
+		"avd_id": "AVD-2021-763343",
+		"name": "McAfee ePolicy Orchestrator未明远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763343"
+	},
+	{
+		"avd_id": "AVD-2021-763272",
+		"name": "OMail Webmail另一远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-763272"
+	},
+	{
+		"avd_id": "AVD-2021-762914",
+		"name": "Horde Chora Viewer远程命令执行漏洞（CNVD-2004-1686）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762914"
+	},
+	{
+		"avd_id": "AVD-2021-762913",
+		"name": "Horde Chora Viewer远程命令执行漏洞（CNVD-2004-1687）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762913"
+	},
+	{
+		"avd_id": "AVD-2021-762840",
+		"name": "osTicket New Ticket附件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762840"
+	},
+	{
+		"avd_id": "AVD-2021-762731",
+		"name": "I-Mall Commerce I-mall脚本远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762731"
+	},
+	{
+		"avd_id": "AVD-2021-762705",
+		"name": "Open WebMail vacation.pl远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762705"
+	},
+	{
+		"avd_id": "AVD-2021-762557",
+		"name": "Extropia WebStore远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762557"
+	},
+	{
+		"avd_id": "AVD-2021-762234",
+		"name": "Oracle 10g Database DBMS_SCHEDULER远程命令执行漏洞（CNVD-2004-2430）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762234"
+	},
+	{
+		"avd_id": "AVD-2021-762225",
+		"name": "Oracle 10g Database DBMS_SCHEDULER远程命令执行漏洞（CNVD-2004-2442）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-762225"
+	},
+	{
+		"avd_id": "AVD-2021-761517",
+		"name": "phpBB2 highlight变量二次解码导致远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-761517"
+	},
+	{
+		"avd_id": "AVD-2021-760468",
+		"name": "RaXnet Cacti graph_image.php远程命令执行漏洞（CNVD-2005-2227）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760468"
+	},
+	{
+		"avd_id": "AVD-2021-760467",
+		"name": "RaXnet Cacti graph_image.php远程命令执行漏洞（CNVD-2005-2229）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760467"
+	},
+	{
+		"avd_id": "AVD-2021-760313",
+		"name": "Debian Apt-Cacher远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760313"
+	},
+	{
+		"avd_id": "AVD-2021-760305",
+		"name": "e107 ePing和eTrace插件远程命令执行漏洞（CNVD-2005-2723）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760305"
+	},
+	{
+		"avd_id": "AVD-2021-760281",
+		"name": "WordPress cache_lastpostdate远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760281"
+	},
+	{
+		"avd_id": "AVD-2021-760229",
+		"name": "Nokia Affix BTSRV设备名远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760229"
+	},
+	{
+		"avd_id": "AVD-2021-760228",
+		"name": "HP OpenView网络节点管理器多个远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760228"
+	},
+	{
+		"avd_id": "AVD-2021-760212",
+		"name": "Barracuda Spam Firewall img.pl远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760212"
+	},
+	{
+		"avd_id": "AVD-2021-760203",
+		"name": "man2web远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-760203"
+	},
+	{
+		"avd_id": "AVD-2021-759517",
+		"name": "SimpleBBS远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-759517"
+	},
+	{
+		"avd_id": "AVD-2021-759494",
+		"name": "Lyris ListManager远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-759494"
+	},
+	{
+		"avd_id": "AVD-2021-758319",
+		"name": "Adobe Graphics Server/Document Server远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-758319"
+	},
+	{
+		"avd_id": "AVD-2021-758131",
+		"name": "WEBalbum远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-758131"
+	},
+	{
+		"avd_id": "AVD-2021-756063",
+		"name": "SpamAssassin Vpopmail和Paranoid选项远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-756063"
+	},
+	{
+		"avd_id": "AVD-2021-755234",
+		"name": "Cisco CS-MARS JBoss远程命令执行漏洞（CNVD-2006-5491）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-755234"
+	},
+	{
+		"avd_id": "AVD-2021-755175",
+		"name": "Cisco CS-MARS JBoss Web应用服务器远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-755175"
+	},
+	{
+		"avd_id": "AVD-2021-754842",
+		"name": "Mcafee SecurityCenter远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-754842"
+	},
+	{
+		"avd_id": "AVD-2021-754020",
+		"name": "TikiWiki配置脚本jhot.php远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-754020"
+	},
+	{
+		"avd_id": "AVD-2021-751550",
+		"name": "Microsoft Windows Speech组件语音识别远程命令执行漏洞（MS08-032）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-751550"
+	},
+	{
+		"avd_id": "AVD-2021-750305",
+		"name": "BMC Performance Manager SNMP远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-750305"
+	},
+	{
+		"avd_id": "AVD-2021-750118",
+		"name": "OPeNDAP BES压缩文件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-750118"
+	},
+	{
+		"avd_id": "AVD-2021-750075",
+		"name": "Novell exteNd Director LocalExec.ocx ActiveX控件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-750075"
+	},
+	{
+		"avd_id": "AVD-2021-749866",
+		"name": "Yoggie Pico/Pico Pro反引号远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-749866"
+	},
+	{
+		"avd_id": "AVD-2021-749848",
+		"name": "AsteriDex callboth.php远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-749848"
+	},
+	{
+		"avd_id": "AVD-2021-749804",
+		"name": "SquirrelMail G/PGP加密插件多个远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-749804"
+	},
+	{
+		"avd_id": "AVD-2021-749495",
+		"name": "COWON America jetAudio JetFlExt.dll ActiveX控件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-749495"
+	},
+	{
+		"avd_id": "AVD-2021-740815",
+		"name": "Numara FootPrints MRchat.pl及MRABLoad2.pl多个远程命令执行漏洞（CNVD-2008-0360）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-740815"
+	},
+	{
+		"avd_id": "AVD-2021-740779",
+		"name": "Coppermine Photo Gallery远程命令执行漏洞（CNVD-2008-0489）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-740779"
+	},
+	{
+		"avd_id": "AVD-2021-740590",
+		"name": "CiscoWorks Internetwork Performance Monitor远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-740590"
+	},
+	{
+		"avd_id": "AVD-2021-740495",
+		"name": "Cisco Unified Communications灾难恢复框架远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-740495"
+	},
+	{
+		"avd_id": "AVD-2021-740161",
+		"name": "XChat ircs://URI远程命令执行漏洞（CNVD-2008-2926）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-740161"
+	},
+	{
+		"avd_id": "AVD-2021-740143",
+		"name": "Mozilla Firefox 3远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-740143"
+	},
+	{
+		"avd_id": "AVD-2021-739856",
+		"name": "AWStats Totals sort参数远程命令执行漏洞（CNVD-2008-4154）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739856"
+	},
+	{
+		"avd_id": "AVD-2021-739663",
+		"name": "Microsoft Host Integration Server RPC远程命令执行漏洞（MS08-059）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739663"
+	},
+	{
+		"avd_id": "AVD-2021-739607",
+		"name": "Blender BPY_interface.c远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739607"
+	},
+	{
+		"avd_id": "AVD-2021-739405",
+		"name": "Moodle texed.php脚本远程命令执行漏洞（CNVD-2008-6042）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739405"
+	},
+	{
+		"avd_id": "AVD-2021-739404",
+		"name": "Moodle texed.php脚本远程命令执行漏洞（CNVD-2008-6043）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739404"
+	},
+	{
+		"avd_id": "AVD-2021-739355",
+		"name": "xterm DECRQSS请求远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739355"
+	},
+	{
+		"avd_id": "AVD-2021-739349",
+		"name": "Megacubo mega:// URI处理器远程命令执行漏洞（CNVD-2008-6350）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739349"
+	},
+	{
+		"avd_id": "AVD-2021-739185",
+		"name": "HP OpenView网络节点管理器多个远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-739185"
+	},
+	{
+		"avd_id": "AVD-2021-738994",
+		"name": "Cascade Server XLST处理远程命令执行漏洞（CNVD-2009-1671）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-738994"
+	},
+	{
+		"avd_id": "AVD-2021-737852",
+		"name": "Cacti Linux - Get Memory Usage远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737852"
+	},
+	{
+		"avd_id": "AVD-2021-737804",
+		"name": "Sun Ray Server认证管理器远程命令执行漏洞（CNVD-2009-5928）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737804"
+	},
+	{
+		"avd_id": "AVD-2021-737802",
+		"name": "Zabbix Server远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737802"
+	},
+	{
+		"avd_id": "AVD-2021-737689",
+		"name": "CoreHTTP CGI支持远程命令执行漏洞（CNVD-2009-6053）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737689"
+	},
+	{
+		"avd_id": "AVD-2021-737683",
+		"name": "CoreHTTP CGI支持远程命令执行漏洞（CNVD-2009-6059）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737683"
+	},
+	{
+		"avd_id": "AVD-2021-737233",
+		"name": "Oracle WebLogic Server beasvc.exe服务远程命令执行漏洞（CNVD-2010-0145）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737233"
+	},
+	{
+		"avd_id": "AVD-2021-737059",
+		"name": "Oracle数据库不安全过程调用远程命令执行漏洞（CNVD-2010-5661）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737059"
+	},
+	{
+		"avd_id": "AVD-2021-737046",
+		"name": "Oracle数据库不安全过程调用远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-737046"
+	},
+	{
+		"avd_id": "AVD-2021-736999",
+		"name": "HP OpenView Network Node Manager远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736999"
+	},
+	{
+		"avd_id": "AVD-2021-736834",
+		"name": "DateV 'DVBSExeCall.ocx' ActiveX控件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736834"
+	},
+	{
+		"avd_id": "AVD-2021-736687",
+		"name": "HP Performance Insight远程命令执行漏洞（CNVD-2010-0324）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736687"
+	},
+	{
+		"avd_id": "AVD-2021-736672",
+		"name": "eGroupware跨站脚本和远程命令执行漏洞（CNVD-2010-3525）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736672"
+	},
+	{
+		"avd_id": "AVD-2021-736630",
+		"name": "MicroWorld eScan产品远程命令执行漏洞（CNVD-2010-0364）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736630"
+	},
+	{
+		"avd_id": "AVD-2021-736621",
+		"name": "OSSIM what参数远程命令执行漏洞（CNVD-2010-3517）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736621"
+	},
+	{
+		"avd_id": "AVD-2021-736596",
+		"name": "OSSIM 'what'参数远程命令执行漏洞（CNVD-2010-0397）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736596"
+	},
+	{
+		"avd_id": "AVD-2021-736584",
+		"name": "KDE KSysguard '.sgrd'文件处理远程命令执行漏洞（CNVD-2010-0406）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-736584"
+	},
+	{
+		"avd_id": "AVD-2021-735820",
+		"name": "HP LoadRunner Agent magnetproc.exe远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-735820"
+	},
+	{
+		"avd_id": "AVD-2021-735807",
+		"name": "Scripts.Oldguy TalkBack 'addons/import.php'安全绕过和远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-735807"
+	},
+	{
+		"avd_id": "AVD-2021-735486",
+		"name": "Scripts.Oldguy TalkBack Security Bypass and Remote 远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-735486"
+	},
+	{
+		"avd_id": "AVD-2021-735389",
+		"name": "Freeciv Lua实时环境远程命令执行漏洞（CNVD-2010-1056）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-735389"
+	},
+	{
+		"avd_id": "AVD-2021-735377",
+		"name": "Wildbit Beanstalk Job Data远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-735377"
+	},
+	{
+		"avd_id": "AVD-2021-735026",
+		"name": "SysCP安全绕过和远程命令执行漏洞（CNVD-2010-1223）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-735026"
+	},
+	{
+		"avd_id": "AVD-2021-735002",
+		"name": "Ubiquiti Networks AirOS远程命令执行漏洞（CNVD-2010-1233）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-735002"
+	},
+	{
+		"avd_id": "AVD-2021-734640",
+		"name": "Mundi Mail多个远程命令执行漏洞（CNVD-2010-1451）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-734640"
+	},
+	{
+		"avd_id": "AVD-2021-731904",
+		"name": "MODACOM URoad-5000远程命令执行漏洞（CNVD-2011-2091）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-731904"
+	},
+	{
+		"avd_id": "AVD-2021-729892",
+		"name": "SAP Management Console OSExecute远程命令执行漏洞（CNVD-2011-4430）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-729892"
+	},
+	{
+		"avd_id": "AVD-2021-728988",
+		"name": "Iron Mountain Connected Backup远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728988"
+	},
+	{
+		"avd_id": "AVD-2021-728671",
+		"name": "Websense Triton存在未明远程命令执行漏洞（CNVD-2011-5338）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728671"
+	},
+	{
+		"avd_id": "AVD-2021-728622",
+		"name": "HP StorageWorks P4000 Virtual SAN Appliance远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728622"
+	},
+	{
+		"avd_id": "AVD-2021-728563",
+		"name": "Ubiquiti Networks AirOS远程命令执行漏洞（CNVD-2011-5440）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728563"
+	},
+	{
+		"avd_id": "AVD-2021-728526",
+		"name": "phpcms远程命令执行漏洞（CNVD-2011-5465）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728526"
+	},
+	{
+		"avd_id": "AVD-2021-728458",
+		"name": "op5 Appliance存在未明远程命令执行漏洞（CNVD-2011-5523）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728458"
+	},
+	{
+		"avd_id": "AVD-2021-728457",
+		"name": "op5 Appliance存在未明远程命令执行漏洞（CNVD-2011-5524）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728457"
+	},
+	{
+		"avd_id": "AVD-2021-728396",
+		"name": "Apache Struts远程命令执行漏洞（CNVD-2012-0008）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728396"
+	},
+	{
+		"avd_id": "AVD-2021-728395",
+		"name": "Apache Struts远程命令执行漏洞（CNVD-2012-0009）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728395"
+	},
+	{
+		"avd_id": "AVD-2021-728347",
+		"name": "TinyWebGallery存在多个远程命令执行漏洞（CNVD-2012-0055）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728347"
+	},
+	{
+		"avd_id": "AVD-2021-728196",
+		"name": "Apache Struts远程命令执行漏洞（CNVD-2012-0158）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728196"
+	},
+	{
+		"avd_id": "AVD-2021-728018",
+		"name": "Gitorious 'git_shell.rb'远程命令执行漏洞（CNVD-2012-0315）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-728018"
+	},
+	{
+		"avd_id": "AVD-2021-726806",
+		"name": "WebGlimpse 'webglimpse.cgi'远程命令执行漏洞（CNVD-2012-1407）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-726806"
+	},
+	{
+		"avd_id": "AVD-2021-726784",
+		"name": "FreePBX远程命令执行漏洞（CNVD-2012-1430）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-726784"
+	},
+	{
+		"avd_id": "AVD-2021-726767",
+		"name": "Cyberoam UTM 'host'参数远程命令执行漏洞（CNVD-2012-1448）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-726767"
+	},
+	{
+		"avd_id": "AVD-2021-726668",
+		"name": "phpFox 'ajax.php'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-726668"
+	},
+	{
+		"avd_id": "AVD-2021-716878",
+		"name": "Rocket U2 UniData远程命令执行漏洞（CNVD-2012-8689）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-716878"
+	},
+	{
+		"avd_id": "AVD-2021-716575",
+		"name": "Basilic 'diff.php'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-716575"
+	},
+	{
+		"avd_id": "AVD-2021-716225",
+		"name": "Johnson Controls多个产品远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-716225"
+	},
+	{
+		"avd_id": "AVD-2021-715855",
+		"name": "IBM Scale Out Network Attached Storage远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-715855"
+	},
+	{
+		"avd_id": "AVD-2021-715691",
+		"name": "Ubisoft Entertainment UPLAY 'OBJECT'控件远程命令执行漏洞（CNVD-2012-4141）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-715691"
+	},
+	{
+		"avd_id": "AVD-2021-715389",
+		"name": "GIMP远程命令执行漏洞（CNVD-2012-4333）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-715389"
+	},
+	{
+		"avd_id": "AVD-2021-715256",
+		"name": "HP LeftHand Virtual SAN Appliance远程命令执行漏洞（CNVD-2012-4419）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-715256"
+	},
+	{
+		"avd_id": "AVD-2021-714593",
+		"name": "Openfiler 'NetworkCard'对象远程命令执行漏洞（CNVD-2012-5117）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-714593"
+	},
+	{
+		"avd_id": "AVD-2021-714276",
+		"name": "Toshiba ConfigFree 'CF7'文件远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-714276"
+	},
+	{
+		"avd_id": "AVD-2021-713357",
+		"name": "Cisco Prime数据中心网络管理器远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-713357"
+	},
+	{
+		"avd_id": "AVD-2021-713051",
+		"name": "Narcissus远程命令执行漏洞（CNVD-2012-6518）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-713051"
+	},
+	{
+		"avd_id": "AVD-2021-712998",
+		"name": "Adobe InDesign Server 'RunScript' SOAP消息远程命令执行漏洞（CNVD-2012-6554）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-712998"
+	},
+	{
+		"avd_id": "AVD-2021-712897",
+		"name": "Lan.FS 'Computername'参数远程命令执行漏洞（CNVD-2012-6642）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-712897"
+	},
+	{
+		"avd_id": "AVD-2021-712834",
+		"name": "Lan.FS ‘Computername’参数远程命令执行漏洞（CNVD-2012-7878）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-712834"
+	},
+	{
+		"avd_id": "AVD-2021-712666",
+		"name": "Cisco WAG120N 多个远程命令执行漏洞（CNVD-2012-7794）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-712666"
+	},
+	{
+		"avd_id": "AVD-2021-711891",
+		"name": "WANem存在多个远程命令执行漏洞（CNVD-2012-9349）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-711891"
+	},
+	{
+		"avd_id": "AVD-2021-711618",
+		"name": "Cisco Prime LAN Management Solution Virtual Appliance远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-711618"
+	},
+	{
+		"avd_id": "AVD-2021-710985",
+		"name": "D-Link DIR-600和DIR-300远程命令执行漏洞（CNVD-2013-00967）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710985"
+	},
+	{
+		"avd_id": "AVD-2021-710905",
+		"name": "Cisco Linksys WRT160N远程命令执行漏洞（CNVD-2013-01009）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710905"
+	},
+	{
+		"avd_id": "AVD-2021-710879",
+		"name": "IRIS远程命令执行漏洞（CNVD-2013-01035）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710879"
+	},
+	{
+		"avd_id": "AVD-2021-710361",
+		"name": "RubyGems Fileutils 'file_utils.rb'远程命令执行漏洞（CNVD-2013-01734）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710361"
+	},
+	{
+		"avd_id": "AVD-2021-710250",
+		"name": "RubyGems Curl 'curl.rb'远程命令执行漏洞（CNVD-2013-01856）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710250"
+	},
+	{
+		"avd_id": "AVD-2021-710249",
+		"name": "RubyGems fastreader 'entry_controller.rb'远程命令执行漏洞（CNVD-2013-01858）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710249"
+	},
+	{
+		"avd_id": "AVD-2021-710246",
+		"name": "RubyGems MiniMagic 'mini_magick.rb'远程命令执行漏洞（CNVD-2013-01861）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710246"
+	},
+	{
+		"avd_id": "AVD-2021-710181",
+		"name": "RubyGems 'command_wrap'远程命令执行漏洞（CNVD-2013-01946）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710181"
+	},
+	{
+		"avd_id": "AVD-2021-710070",
+		"name": "Rosewill RSVA11001/RSVA12001 NTP主机操作远程命令执行漏洞（CNVD-2013-02252）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710070"
+	},
+	{
+		"avd_id": "AVD-2021-710059",
+		"name": "RubyGems 'thumbshooter'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710059"
+	},
+	{
+		"avd_id": "AVD-2021-710015",
+		"name": "Ra1NX PHP IRC Bot远程命令执行漏洞（CNVD-2013-02363）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-710015"
+	},
+	{
+		"avd_id": "AVD-2021-709965",
+		"name": "RubyGems 'ldoce'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709965"
+	},
+	{
+		"avd_id": "AVD-2021-709964",
+		"name": "STUNSHELL Web Shell存在未明远程命令执行漏洞（CNVD-2013-02582）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709964"
+	},
+	{
+		"avd_id": "AVD-2021-709963",
+		"name": "v0pCr3w Web Shell存在未明远程命令执行漏洞（CNVD-2013-02583）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709963"
+	},
+	{
+		"avd_id": "AVD-2021-709833",
+		"name": "RubyGems karteek-docsplit 'text_extractor.rb'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709833"
+	},
+	{
+		"avd_id": "AVD-2021-709740",
+		"name": "IBM Sterling B2B Integrator远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709740"
+	},
+	{
+		"avd_id": "AVD-2021-709502",
+		"name": "MediaWiki 'Extension:RSS'远程命令执行漏洞（CNVD-2013-03621）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709502"
+	},
+	{
+		"avd_id": "AVD-2021-709501",
+		"name": "MediaWiki SVG解析远程命令执行漏洞（CNVD-2013-03622）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709501"
+	},
+	{
+		"avd_id": "AVD-2021-709499",
+		"name": "MediaWiki 'Special:Import'远程命令执行漏洞（CNVD-2013-03625）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709499"
+	},
+	{
+		"avd_id": "AVD-2021-709496",
+		"name": "SAP BASIS Communication Services远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709496"
+	},
+	{
+		"avd_id": "AVD-2021-709372",
+		"name": "Cisco Device Manager存在多个远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709372"
+	},
+	{
+		"avd_id": "AVD-2021-709358",
+		"name": "NETGEAR DGND3700 'ping.cgi'远程命令执行漏洞（CNVD-2013-04220）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709358"
+	},
+	{
+		"avd_id": "AVD-2021-709261",
+		"name": "FreePBX 'page.backup.php'脚本远程命令执行漏洞（CNVD-2013-04627）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709261"
+	},
+	{
+		"avd_id": "AVD-2021-709197",
+		"name": "D-Link DNS-323 ShareCenter远程命令执行漏洞（CNVD-2013-04842）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709197"
+	},
+	{
+		"avd_id": "AVD-2021-709163",
+		"name": "Dovecot 'sender_address'参数远程命令执行漏洞（CNVD-2013-04947）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709163"
+	},
+	{
+		"avd_id": "AVD-2021-709141",
+		"name": "Red Hat OpenShift Origin远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-709141"
+	},
+	{
+		"avd_id": "AVD-2021-708820",
+		"name": "Apache Struts2 includeParams属性远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-708820"
+	},
+	{
+		"avd_id": "AVD-2021-708732",
+		"name": "Apache Struts2 Showcase应用远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-708732"
+	},
+	{
+		"avd_id": "AVD-2021-708462",
+		"name": "QNAP VioStor NVR/QNAP NAS远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-708462"
+	},
+	{
+		"avd_id": "AVD-2021-708116",
+		"name": "SolusVM centralbackup.php远程命令执行漏洞（CNVD-2013-08091）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-708116"
+	},
+	{
+		"avd_id": "AVD-2021-708095",
+		"name": "MonkeyCMS远程命令执行漏洞（CNVD-2013-08172）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-708095"
+	},
+	{
+		"avd_id": "AVD-2021-704494",
+		"name": "HTTP File Server远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-704494"
+	},
+	{
+		"avd_id": "AVD-2021-704415",
+		"name": "FreePBX 'index.php'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-704415"
+	},
+	{
+		"avd_id": "AVD-2021-703832",
+		"name": "Centreon和Centreon Enterprise Server远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-703832"
+	},
+	{
+		"avd_id": "AVD-2021-703719",
+		"name": "Incredible PBX 11 'reminders/index.php'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-703719"
+	},
+	{
+		"avd_id": "AVD-2021-703453",
+		"name": "Enalean Tuleap 'SVN/ viewvc.php'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-703453"
+	},
+	{
+		"avd_id": "AVD-2021-703078",
+		"name": "wpa_supplicant及hostapd远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-703078"
+	},
+	{
+		"avd_id": "AVD-2021-702499",
+		"name": "Centreon 'file_put_contents()'函数远程命令执行漏洞（CNVD-2014-08605）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-702499"
+	},
+	{
+		"avd_id": "AVD-2021-702337",
+		"name": "Gollum 'grit_adapter'适配器远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-702337"
+	},
+	{
+		"avd_id": "AVD-2021-701950",
+		"name": "Cisco WebEx Extension 'magic URL'远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-701950"
+	},
+	{
+		"avd_id": "AVD-2021-701686",
+		"name": "Uniview NVR设备全版本远程命令执行漏洞（CNVD-2018-00538）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-701686"
+	},
+	{
+		"avd_id": "AVD-2021-701538",
+		"name": "Axentra Hipserv NAS OS未认证远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-701538"
+	},
+	{
+		"avd_id": "AVD-2021-701398",
+		"name": "rssh远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-701398"
+	},
+	{
+		"avd_id": "AVD-2021-701397",
+		"name": "rssh远程命令执行漏洞（CNVD-2019-03892）",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-701397"
+	},
+	{
+		"avd_id": "AVD-2021-699998",
+		"name": "Fleetco Fleet Maintenance Management (FMM)远程命令执行漏洞",
+		"avd_link": "https://avd.aliyun.com/detail?id=AVD-2021-699998"
+	}
+]
