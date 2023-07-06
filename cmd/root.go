@@ -53,9 +53,7 @@ func init() {
 	rootCmd.AddCommand(versionCmd)
 	rootCmd.AddCommand(schemaCmd)
 
-	// TODO fetch 爬虫 cmd
 	// TODO Subscribe 订阅 cmd
-	// TODO search 搜索cmd
 	// TODO 数字大屏
 
 	rootCmd.PersistentFlags().BoolVarP(&verbose, "verbose", "v", false, "enable verbose logging (DEBUG and below)")
