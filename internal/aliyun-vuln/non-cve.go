@@ -27,21 +27,22 @@ func NewNonCveCollector(scheme string, domain string, path string) *NonCveCollec
 	return &collector
 }
 
-func (c *NonCveCollector) GetPage(_ string) (*Page, error) {
+func (c *NonCveCollector) GetPage() (map[string]*Page, error) {
+	Pages := make(map[string]*Page, 1)
 	page, err := getPage(c.url.String(), c.c)
 	if err != nil {
 		return nil, err
 	}
-	return page, nil
+	Pages[NonCveType] = page
+	return Pages, nil
 }
 
 func (c *NonCveCollector) GetMetadata() (*model.MetaData, error) {
-	page, err := c.GetPage("")
+	pages, err := c.GetPage()
 	if err != nil {
 		return nil, xerrors.Errorf("failed to get non cve page:%w", err)
 	}
-
-	return &model.MetaData{LastUpdate: now, NonCveVuln: page.Record}, nil
+	return &model.MetaData{LastUpdate: now, NonCveVuln: pages[NonCveType].Record}, nil
 }
 
 func (c *NonCveCollector) GetVulnList(_ string, page int) ([]*model.VulnList, error) {

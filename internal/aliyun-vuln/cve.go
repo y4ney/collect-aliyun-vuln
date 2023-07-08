@@ -24,7 +24,7 @@ const (
 )
 
 var (
-	categories = []string{OS, Database, Application, WebApplication, HardwareEquipment}
+	Categories = []string{OS, Database, Application, WebApplication, HardwareEquipment}
 	now        = time.Now().Local()
 )
 
@@ -40,23 +40,27 @@ func NewCveCollector(scheme string, domain string, path string) *CveCollector {
 	return &collector
 }
 
-func (c *CveCollector) GetPage(category string) (*Page, error) {
-	c.url = utils.AddQuery(c.url, map[string]string{QueryType: category})
-	page, err := getPage(c.url.String(), c.c)
-	if err != nil {
-		return nil, err
+func (c *CveCollector) GetPage() (map[string]*Page, error) {
+	pages := make(map[string]*Page, len(Categories))
+	for _, category := range Categories {
+		page, err := getPage(utils.AddQuery(c.url, map[string]string{QueryType: category}).String(), c.c)
+		if err != nil {
+			return nil, err
+		}
+		pages[category] = page
 	}
-	return page, nil
+
+	return pages, nil
 }
 
 func (c *CveCollector) GetMetadata() (*model.MetaData, error) {
-	categoryVulns := make(map[string]int, 4)
+	pages, err := c.GetPage()
+	if err != nil {
+		return nil, xerrors.Errorf("failed to get cve vuln page:%w", err)
+	}
+	categoryVulns := make(map[string]int, len(Categories))
 	cveVuln := 0
-	for _, category := range categories {
-		page, err := c.GetPage(category)
-		if err != nil {
-			return nil, xerrors.Errorf("failed to get %s page:%w", category, err)
-		}
+	for category, page := range pages {
 		categoryVulns[category] = page.Record
 		cveVuln += page.Record
 	}
@@ -93,7 +97,6 @@ func (c *CveCollector) GetVulnList(category string, page int) ([]*model.VulnList
 			score, err := utils.FormatScore(cveVuln[4])
 			if err != nil {
 				log.Fatal().Str("CVSS评分", cveVuln[4]).Msgf("failed to convert cvss score:%v", err)
-				return
 			}
 			vuln.CvssScore = score
 

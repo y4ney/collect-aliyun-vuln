@@ -16,6 +16,9 @@ const (
 	Domain = "avd.aliyun.com"
 
 	QueryKeyword = "q"
+	CveType      = "cve"
+	NonCveType   = "non-cve"
+	AliyunType   = "aliyun"
 
 	CvdVulnListPath    = "nvd/list"
 	NonCvdVulnListPath = "nonvd/list"
@@ -26,11 +29,24 @@ const (
 
 type AliyunVuln interface {
 	// GetPage 获取页码数据
-	GetPage(category string) (*Page, error)
+	GetPage() (map[string]*Page, error)
 	// GetMetadata 获取元数据
 	GetMetadata() (*model.MetaData, error)
 	// GetVulnList 获取漏洞列表数据
 	GetVulnList(category string, page int) ([]*model.VulnList, error)
+}
+
+func NewAliyunVuln(Type string) AliyunVuln {
+	var collector AliyunVuln
+	c := colly.NewCollector()
+	if Type == CveType {
+		collector = &CveCollector{c: c, url: utils.URL(Scheme, Domain, CvdVulnListPath)}
+	}
+	if Type == NonCveType {
+		collector = &NonCveCollector{c: c, url: utils.URL(Scheme, Domain, NonCvdVulnListPath)}
+	}
+
+	return collector
 }
 
 type Page struct {
@@ -78,9 +94,10 @@ func getPage(url string, c *colly.Collector) (*Page, error) {
 	return page, nil
 }
 
-func GetVulnDetail(vulnId string) (*model.VulnDetail, error) {
+func GetVulnDetail(avdId string) (*model.VulnDetail, error) {
 	// TODO cvssVector
 	var vuln model.VulnDetail
+	vuln.AvdId = avdId
 	c := colly.NewCollector()
 	// 上方
 	c.OnHTML("div.px-lg-5.px-3.py-lg-3.pt-4.bg-white", func(e *colly.HTMLElement) {
@@ -141,7 +158,6 @@ func GetVulnDetail(vulnId string) (*model.VulnDetail, error) {
 		if err != nil {
 			log.Fatal().Float64("CVSS评分/阿里云评分", score).
 				Msgf("failed to convert score:%v", err)
-			return
 		}
 		if e.ChildText("div.cvss-breakdown__heading") == "阿里云评分" {
 			vuln.AvdScore = score
@@ -190,7 +206,7 @@ func GetVulnDetail(vulnId string) (*model.VulnDetail, error) {
 		}
 	})
 
-	err := c.Visit(utils.AddQuery(utils.URL(Scheme, Domain, VulnDetailPath), map[string]string{QueryId: vulnId}).String())
+	err := c.Visit(utils.AddQuery(utils.URL(Scheme, Domain, VulnDetailPath), map[string]string{QueryId: avdId}).String())
 	if err != nil {
 		return nil, err
 	}

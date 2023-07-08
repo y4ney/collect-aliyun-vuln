@@ -3,6 +3,7 @@ module github.com/y4ney/collect-aliyun-vuln
 go 1.20
 
 require (
+	github.com/cheggaaa/pb v1.0.29
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/invopop/jsonschema v0.7.0
 	github.com/rs/zerolog v1.29.1
@@ -32,6 +33,7 @@ require (
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
