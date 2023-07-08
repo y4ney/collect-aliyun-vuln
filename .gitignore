@@ -22,3 +22,5 @@ go.work
 
 .idea
 .run
+./collect-aliyun-vuln
+./aliyun
