@@ -36,7 +36,7 @@ func init() {
 	utils.BindFlags(schemaCmd)
 }
 
-func runGenerateSchema(cmd *cobra.Command, _ []string) error {
+func runGenerateSchema(_ *cobra.Command, _ []string) error {
 	var schema *jsonschema.Schema
 	switch Type {
 	case VulnDetailSchema:

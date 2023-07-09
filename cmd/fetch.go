@@ -1,13 +1,18 @@
 package cmd
 
 import (
+	"encoding/json"
 	"fmt"
 	"github.com/cheggaaa/pb"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
-	aliyun_vuln "github.com/y4ney/collect-aliyun-vuln/internal/aliyun-vuln"
+	"github.com/y4ney/collect-aliyun-vuln/internal/aliyun-vuln"
+	"github.com/y4ney/collect-aliyun-vuln/internal/model"
 	"github.com/y4ney/collect-aliyun-vuln/internal/utils"
 	"golang.org/x/xerrors"
+	"gopkg.in/yaml.v3"
+	"io"
+	"os"
 	"path/filepath"
 	"strings"
 )
@@ -31,7 +36,7 @@ var (
 // fetchCmd represents the fetch command
 var fetchCmd = &cobra.Command{
 	Use:   "fetch",
-	Short: "fetch aliyun vuln info",
+	Short: "Fetch aliyun vuln info",
 	RunE:  runFetch,
 }
 
@@ -39,10 +44,8 @@ func init() {
 	rootCmd.AddCommand(fetchCmd)
 
 	fetchCmd.Flags().StringVarP(&types, "types", "t", aliyun_vuln.CveType, fmt.Sprintf("Types(cve, non-cve),If there are multiple values, it is separated by a quiet comma"))
-	fetchCmd.Flags().BoolVar(&short, "short", true, "Short - only include cve id, avd id, name,type, publish time,cvss score,avd link,category and status")
-	// TODO stdout
+	fetchCmd.Flags().BoolVar(&short, "short", true, "Short - only fetch vuln list")
 	fetchCmd.Flags().StringVarP(&output, "output", "o", FileOutput, "Output (stdout, file)")
-	// TODO yaml
 	fetchCmd.Flags().StringVarP(&format, "format", "f", JSONFormat, "Format (json, yaml)")
 	fetchCmd.Flags().StringVarP(&outPath, "out-path", "p", ".", "Path to write vuln file to. Works only with --output=file")
 
@@ -58,13 +61,14 @@ func runFetch(cmd *cobra.Command, _ []string) error {
 			return err
 		}
 		c := aliyun_vuln.NewAliyunVuln(types)
-		if err := fetchVuln(fetchType, c); err != nil {
+		if err := FetchVuln(fetchType, c); err != nil {
 			return err
 		}
 	}
 	return nil
 }
-func fetchVuln(fetchType string, c aliyun_vuln.AliyunVuln) error {
+
+func FetchVuln(fetchType string, c aliyun_vuln.AliyunVuln) error {
 	// 获取页码信息
 	pages, err := c.GetPage()
 	if err != nil {
@@ -88,28 +92,36 @@ func fetchVuln(fetchType string, c aliyun_vuln.AliyunVuln) error {
 				log.Error().Str("category", category).Int("page", i).Msgf(err.Error())
 				return err
 			}
+
+			if err = PrintVuln(fetchType, vulns, bar); err != nil {
+				return err
+			}
 			log.Debug().Str("category", category).Int("page", i).Msg("success to get vuln list")
 
-			for _, vuln := range vulns {
-				if short {
-					// 输出简短的信息
-					if err = Output(fetchType, vuln.AvdId, vuln); err != nil {
-						return err
-					}
-				} else {
-					// 获取漏洞信息,再输出详细信息
-					vulnDetail, err := aliyun_vuln.GetVulnDetail(vuln.AvdId)
-					if err != nil {
-						log.Fatal().Str("AVD ID", vuln.AvdId).Msgf("failed to get vuln detail:%v", err)
-					}
-					log.Debug().Str("AVD ID", vuln.AvdId).Msg("success to get vuln detail")
-					if err = Output(fetchType, vulnDetail.AvdId, vulnDetail); err != nil {
-						return err
-					}
-				}
-				if !verbose {
-					bar.Increment()
-				}
+		}
+		if !verbose {
+			bar.Increment()
+		}
+	}
+	return nil
+}
+
+func PrintVuln(fetchType string, vulns []*model.VulnList, bar *pb.ProgressBar) error {
+	for _, vuln := range vulns {
+		if short {
+			// 输出简短的信息
+			if err := printVuln(fetchType, vuln.AvdId, vuln); err != nil {
+				return err
+			}
+		} else {
+			// 获取漏洞信息,再输出详细信息
+			vulnDetail, err := aliyun_vuln.GetVulnDetail(vuln.AvdId)
+			if err != nil {
+				log.Fatal().Str("AVD ID", vuln.AvdId).Msgf("failed to get vuln detail:%v", err)
+			}
+			log.Debug().Str("AVD ID", vuln.AvdId).Msg("success to get vuln detail")
+			if err = printVuln(fetchType, vulnDetail.AvdId, vulnDetail); err != nil {
+				return err
 			}
 		}
 		if !verbose {
@@ -119,38 +131,49 @@ func fetchVuln(fetchType string, c aliyun_vuln.AliyunVuln) error {
 	return nil
 }
 
-func Output(fetchType string, AvdId string, data any) error {
-	if output == FileOutput {
-		if err := writeVuln(fetchType, AvdId, data); err != nil {
+func printVuln(fetchType string, AvdId string, data any) error {
+	writer, err := getWriter(fetchType, AvdId)
+	if err != nil {
+		return err
+	}
+	defer writer.Close()
+	switch format {
+	case JSONFormat:
+		enc := json.NewEncoder(writer)
+		enc.SetIndent("", "\t")
+		if err := enc.Encode(data); err != nil {
 			return err
 		}
+	case YAMLFormat:
+		enc := yaml.NewEncoder(writer)
+		enc.SetIndent(2)
+		if err := enc.Encode(data); err != nil {
+			return err
+		}
+	default:
+		return fmt.Errorf("format %q is not supported", format)
 	}
 	return nil
 }
 
-func writeVuln(fetchType string, AvdId string, data any) error {
-	// 创建目录
-	dir := filepath.Join(outPath, aliyun_vuln.AliyunType, fetchType, strings.Split(AvdId, "-")[1])
-	if err := utils.Mkdir(dir); err != nil {
-		err = xerrors.Errorf("failed to mkdir:%w", err)
-		log.Error().Str("directory", dir).Msg(err.Error())
-		return err
+func getWriter(fetchType string, AvdId string) (io.WriteCloser, error) {
+	switch output {
+	case StdOutput:
+		return out, nil
+	case FileOutput:
+		// 创建目录
+		dir := filepath.Join(outPath, aliyun_vuln.AliyunType, fetchType, strings.Split(AvdId, "-")[1])
+		if err := utils.Mkdir(dir); err != nil {
+			return nil, xerrors.Errorf("failed to mkdir %s:%w", dir, err)
+		}
+		// 创建文件
+		filename := filepath.Join(dir, fmt.Sprintf("%s.%s", AvdId, format))
+		f, err := os.Create(filename)
+		if err != nil {
+			return nil, xerrors.Errorf("failed to create %s:%w", filename, err)
+		}
+		return f, nil
+	default:
+		return nil, fmt.Errorf("output %q is not supported", output)
 	}
-	log.Debug().Str("directory", dir).Msg("success to mkdir")
-
-	// 写入文件
-	var filename string
-	if format == JSONFormat {
-		filename = fmt.Sprintf("%s.json", AvdId)
-	}
-	if format == YAMLFormat {
-		filename = fmt.Sprintf("%s.yaml", AvdId)
-	}
-	if err := utils.WriteFile(filepath.Join(dir, filename), data); err != nil {
-		err = xerrors.Errorf("failed to write file:%w", err)
-		log.Error().Str("filename", filename).Msg(err.Error())
-		return err
-	}
-	log.Debug().Str("filename", filename).Msg("success to write file")
-	return nil
 }

@@ -13,7 +13,7 @@ var versionCmd = &cobra.Command{
 	RunE:  runPrintVersion,
 }
 
-func runPrintVersion(cmd *cobra.Command, _ []string) error {
+func runPrintVersion(_ *cobra.Command, _ []string) error {
 	fmt.Fprintf(out, "%s version %s\n", config.AppName, config.AppVersion)
 	fmt.Fprintf(out, "build date: %s\n", config.BuildTime)
 	fmt.Fprintf(out, "commit: %s\n\n", config.LastCommitHash)
