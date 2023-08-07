@@ -69,14 +69,19 @@ func (c *CveCollector) GetMetadata() (*model.MetaData, error) {
 }
 
 func (c *CveCollector) GetVulnList(category string, page int) ([]*model.VulnList, error) {
-	var vulns []*model.VulnList
+	var (
+		vulns   []*model.VulnList
+		vuln    model.VulnList
+		cveVuln []string
+	)
+
 	c.c.OnHTML("table.table", func(e *colly.HTMLElement) {
 		e.ForEach("tr", func(index int, row *colly.HTMLElement) {
-			cveVuln := row.ChildTexts("td")
+			cveVuln = row.ChildTexts("td")
 			if cveVuln == nil {
 				return
 			}
-			vuln := model.VulnList{
+			vuln = model.VulnList{
 				CveId:       cveVuln[0],
 				Name:        utils.TrimNull(cveVuln[1]),
 				PublishTime: utils.TrimNull(cveVuln[3]),

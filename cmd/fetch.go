@@ -12,6 +12,7 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 	"io"
+	_ "net/http/pprof"
 	"os"
 	"path/filepath"
 	"strings"
@@ -42,7 +43,6 @@ var fetchCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(fetchCmd)
-
 	fetchCmd.Flags().StringVarP(&types, "types", "t", aliyun_vuln.CveType, fmt.Sprintf("Types(cve, non-cve),If there are multiple values, it is separated by a quiet comma"))
 	fetchCmd.Flags().BoolVar(&short, "short", true, "Short - only fetch vuln list")
 	fetchCmd.Flags().StringVarP(&output, "output", "o", FileOutput, "Output (stdout, file)")
@@ -78,6 +78,7 @@ func FetchVuln(fetchType string, c aliyun_vuln.AliyunVuln) error {
 	}
 	log.Debug().Interface("pages", pages).Msg("success to get pages")
 
+	var vulns []*model.VulnList
 	for category, page := range pages {
 		var bar *pb.ProgressBar
 		if !verbose {
@@ -86,7 +87,7 @@ func FetchVuln(fetchType string, c aliyun_vuln.AliyunVuln) error {
 		}
 		for i := page.Current; i <= page.Total; i++ {
 			// 获取漏洞列表
-			vulns, err := c.GetVulnList(category, i)
+			vulns, err = c.GetVulnList(category, i)
 			if err != nil {
 				err = xerrors.Errorf("failed to get vuln list:%w", err)
 				log.Error().Str("category", category).Int("page", i).Msgf(err.Error())
@@ -100,7 +101,7 @@ func FetchVuln(fetchType string, c aliyun_vuln.AliyunVuln) error {
 
 		}
 		if !verbose {
-			bar.Increment()
+			bar.Finish()
 		}
 	}
 	return nil
